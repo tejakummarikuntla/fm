@@ -2,7 +2,8 @@ import React, { useEffect, createContext, useReducer, useContext } from "react";
 import { BrowserRouter, Route, Switch, useHistory } from "react-router-dom";
 import Home from "./components/screens/Home";
 import Episodes from "./components/screens/Episodes";
-import Blogs from "./components/screens/Blog";
+import Ep_4 from "./components/screens/Blog_4";
+import Ep_5 from "./components/screens/Blog_5";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -24,11 +25,14 @@ const Routing = () => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/episodes">
+      <Route path="/episodes/all">
         <Episodes />
       </Route>
-      <Route path="/blog">
-        <Blogs />
+      <Route path="/episodes/ep_4">
+        <Ep_4 />
+      </Route>
+      <Route path="/episodes/ep_5">
+        <Ep_5 />
       </Route>
       <Route path="/signin">
         <Signin />
@@ -39,6 +43,8 @@ const Routing = () => {
     </Switch>
   );
 };
+
+//viewPort
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);

@@ -69,14 +69,28 @@ class Contact extends Component {
                   data-wow-delay="300ms"
                 >
                   <p>Email:</p>
-                  <h6>confer@gmail.com</h6>
+                  <h6>
+                    {" "}
+                    <a href="mailto:tejakummarikuntla@gmail.com">
+                      {" "}
+                      teja.kummarikuntla@gmail.com{" "}
+                    </a>
+                  </h6>
                 </div>
                 <div
                   className="single-contact-info wow fadeInUp"
                   data-wow-delay="300ms"
                 >
                   <p>Website:</p>
-                  <h6>www.confer.com</h6>
+                  <h6>
+                    <a
+                      href="https://tejakummarikuntla.github.io"
+                      target="_blank"
+                    >
+                      {" "}
+                      tejakummarikuntla.github.io{" "}
+                    </a>
+                  </h6>
                 </div>
               </div>
             </div>

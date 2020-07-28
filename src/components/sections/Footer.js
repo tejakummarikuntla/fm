@@ -36,7 +36,10 @@ const Footer = () => {
                     >
                       <i className="zmdi zmdi-instagram"></i>
                     </a>
-                    <a href="https://www.twitter.com/crossmux" target="_blank">
+                    <a
+                      href="https://www.twitter.com/tejakkuntla"
+                      target="_blank"
+                    >
                       <i className="zmdi zmdi-twitter"></i>
                     </a>
                     <a

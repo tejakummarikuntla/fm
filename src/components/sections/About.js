@@ -33,7 +33,7 @@ const about = () => {
               <ul className="c-subscribe-list">
                 <li className="c-subscribe-list__item">
                   <a
-                    href="#"
+                    href="https://podcasts.apple.com/us/podcast/exploiting-with-teja-kummarikuntla/id1517209695"
                     className="c-subscribe-list__link"
                     target="_blank"
                     rel="noopener"
@@ -51,7 +51,7 @@ const about = () => {
 
                 <li className="c-subscribe-list__item">
                   <a
-                    href="#"
+                    href="https://overcast.fm/itunes1517209695/exploiting-with-teja-kummarikuntla"
                     className="c-subscribe-list__link"
                     target="_blank"
                     rel="noopener"
@@ -81,9 +81,9 @@ const about = () => {
                   </a>
                 </li>
 
-                <li className="c-subscribe-list__item u-hidden">
+                <li className="c-subscribe-list__item">
                   <a
-                    href="#"
+                    href="https://pca.st/tszxi3wq"
                     className="c-subscribe-list__link"
                     target="_blank"
                     rel="noopener"
@@ -131,7 +131,7 @@ const about = () => {
 
                 <li className="c-subscribe-list__item">
                   <a
-                    href="#"
+                    href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmVmMmI1Yy9wb2RjYXN0L3Jzcw=="
                     className="c-subscribe-list__link"
                     target="_blank"
                     rel="noopener"
@@ -163,9 +163,9 @@ const about = () => {
                   </a>
                 </li>
 
-                <li className="c-subscribe-list__item u-hidden">
+                <li className="c-subscribe-list__item">
                   <a
-                    href="#"
+                    href="https://anchor.fm/s/1fef2b5c/podcast/rss"
                     className="c-subscribe-list__link"
                     target="_blank"
                     rel="noopener"
@@ -178,7 +178,7 @@ const about = () => {
                     <span className="c-subscribe-list__name">RSS</span>
                   </a>
                 </li>
-              </ul>{" "}
+              </ul>
             </div>
           </div>
 

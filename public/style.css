@@ -852,6 +852,11 @@ input:required {
 }
 
 /* :: 7.0 Header Area CSS */
+.navbar-toggler-icon {
+  background-image: url(img/icon.jpg);
+  /* background-color: #ffffff !important; */
+}
+
 .classy-nav-container {
   background-color: transparent;
   padding: 0;
@@ -970,10 +975,6 @@ input:required {
   width: 100%;
 }
 
-.classy-navbar-toggler .navbarToggler span {
-  background-color: #ffffff;
-}
-
 .header-area {
   position: fixed;
   z-index: 999;
@@ -981,14 +982,14 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 .header-area.sticky {
   background-color: #000000;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
 }
-.header-area.sticky .classy-navbar {
+.header-area.sticky {
   height: 75px;
 }
 
@@ -1851,6 +1852,10 @@ input:required {
 }
 
 /* :: 13.0 Breadcrumb CSS */
+#breadcrumb-area {
+  background-image: url(img/Podcast/Exploiting_lowangle_banner.png);
+}
+
 .breadcrumb-area {
   position: relative;
   z-index: 1;
@@ -1895,6 +1900,11 @@ input:required {
 }
 .breadcrumb-content .breadcrumb .breadcrumb-item a:hover,
 .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
+  color: #df42b1;
+}
+/*NavLInk*/
+.breadcrumb-content .breadcrumb .breadcrumb-item .nav-link-icon:hover,
+.breadcrumb-content .breadcrumb .breadcrumb-item .nav-link-icon:focus {
   color: #df42b1;
 }
 .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
@@ -1969,6 +1979,10 @@ input:required {
 }
 
 /* :: 14.0 Blog Area CSS */
+#our-blog-area {
+  background-image: url(img/Podcast/Exploiting_v2.png);
+}
+
 .our-blog-area .row {
   margin-left: -20px;
   margin-right: -20px;
