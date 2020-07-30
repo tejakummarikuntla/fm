@@ -181,10 +181,16 @@ const ep_4 = () => {
           <div className="pager-area d-flex align-items-center flex-wrap mb-80">
             <div className="pager-single-post d-flex align-items-center">
               <div className="post-thumb">
-                <img src="" alt="" />
+                <a href="https://open.spotify.com/episode/5RbgqW4hHQTqClSP8xzrOr">
+                  <img src="" alt="" />
+                </a>
               </div>
               <div className="post-meta">
-                <a href="#" className="post-title">
+                <a
+                  href="https://open.spotify.com/episode/5RbgqW4hHQTqClSP8xzrOr"
+                  className="post-title"
+                  target="_blank"
+                >
                   Balamurugan SP
                 </a>
                 <span>Previous Post</span>
@@ -193,7 +199,7 @@ const ep_4 = () => {
 
             <div className="pager-single-post d-flex align-items-center">
               <div className="post-thumb">
-                <a href="#">
+                <a href="/episodes/ep_5">
                   <img
                     src="../img/Podcast/episodes/ep_5/guest/dp_FrankKane.png"
                     alt=""

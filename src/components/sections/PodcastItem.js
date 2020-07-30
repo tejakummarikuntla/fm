@@ -50,6 +50,51 @@ const poditem = () => {
               </div>
             </div>
           </div>
+          <div class="single-blog-area wow fadeInUp">
+            <div class="card" data-wow-delay="300ms">
+              <div class="card-body" data-wow-delay="300ms">
+                <div id="Container">
+                  <iframe
+                    src="https://open.spotify.com/embed-podcast/episode/30Mhriw4VzXkhOhsZqi6AB"
+                    width="100%"
+                    height="232"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+                </div>
+                <div class="single-blog-text text-center">
+                  <a class="blog-title" href="/episodes/ep_5" target="_blank">
+                    Frank Kane: On How to Become a Successful Online Instructor
+                    in Technology | Self Employment{" "}
+                  </a>
+                  <div class="post-meta">
+                    <a class="post-date">
+                      <i class="zmdi zmdi-alarm-check"></i> July 20, 2020
+                    </a>
+                    <a
+                      class="post-author"
+                      href="https://www.linkedin.com/in/frankkane/"
+                      target="_blank"
+                    >
+                      <i class="zmdi zmdi-account"></i> Frank Kane
+                    </a>
+                  </div>
+                  <p class="card-text text-center">
+                    I’m so grateful to sit with Frank Kane, Founder of Sundog
+                    Education. Who’s deeply connected in the conversation and
+                    vulnerably revealed his life exploits and experience on
+                    making more than 1 million dollars with self-employment.
+                  </p>
+                </div>
+              </div>
+              <div class="blog-btn">
+                <a href="/episodes/ep_5" target="_blank">
+                  <i class="zmdi zmdi-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="single-blog-area wow fadeInUp">
             <div className="card" data-wow-delay="300ms">
               <div className="card-body" data-wow-delay="300ms">
