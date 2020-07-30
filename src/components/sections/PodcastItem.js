@@ -10,7 +10,7 @@ const poditem = () => {
               <div class="card-body" data-wow-delay="300ms">
                 <div id="Container">
                   <iframe
-                    src="https://open.spotify.com/embed-podcast/episode/30Mhriw4VzXkhOhsZqi6AB"
+                    src="https://open.spotify.com/embed-podcast/episode/4dqM19MPjhkfOXAgnSAikD"
                     width="100%"
                     height="232"
                     frameborder="0"
@@ -20,31 +20,32 @@ const poditem = () => {
                 </div>
                 <div class="single-blog-text text-center">
                   <a class="blog-title" href="/episodes/ep_5" target="_blank">
-                    Frank Kane: On How to Become a Successful Online Instructor
-                    in Technology | Self Employment{" "}
+                    On How to Transform Your Actions with One Percent Rule
                   </a>
                   <div class="post-meta">
                     <a class="post-date">
-                      <i class="zmdi zmdi-alarm-check"></i> July 20, 2020
+                      <i class="zmdi zmdi-alarm-check"></i> July 27, 2020
                     </a>
                     <a
                       class="post-author"
                       href="https://www.linkedin.com/in/frankkane/"
                       target="_blank"
                     >
-                      <i class="zmdi zmdi-account"></i> Frank Kane
+                      <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
                     </a>
                   </div>
-                  <p class="card-text text-center">
-                    I’m so grateful to sit with Frank Kane, Founder of Sundog
-                    Education. Who’s deeply connected in the conversation and
-                    vulnerably revealed his life exploits and experience on
-                    making more than 1 million dollars with self-employment.
+                  <p>
+                    On this Unicast, I’ve shared one of the most powerful ideas
+                    that I ever learned, an Idea called one percent rule. By the
+                    time you are in mid of any of your work by hardworking,
+                    there’s a high possibility that we lose our intention, it’s
+                    maybe you couldn’t find any results or maybe you were
+                    overspending your time
                   </p>
                 </div>
               </div>
               <div class="blog-btn">
-                <a href="/episodes/ep_5" target="_blank">
+                <a href="/episodes/ep_6" target="_blank">
                   <i class="zmdi zmdi-long-arrow-right"></i>
                 </a>
               </div>

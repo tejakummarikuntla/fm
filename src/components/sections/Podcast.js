@@ -24,6 +24,53 @@ const Podcast = () => {
                 <div class="card-body" data-wow-delay="300ms">
                   <div id="Container">
                     <iframe
+                      src="https://open.spotify.com/embed-podcast/episode/4dqM19MPjhkfOXAgnSAikD"
+                      width="100%"
+                      height="232"
+                      frameborder="0"
+                      allowtransparency="true"
+                      allow="encrypted-media"
+                    ></iframe>
+                  </div>
+                  <div class="single-blog-text text-center">
+                    <a class="blog-title" href="/episodes/ep_5" target="_blank">
+                      On How to Transform Your Actions with One Percent Rule
+                    </a>
+                    <div class="post-meta">
+                      <a class="post-date">
+                        <i class="zmdi zmdi-alarm-check"></i> July 27, 2020
+                      </a>
+                      <a
+                        class="post-author"
+                        href="https://www.linkedin.com/in/frankkane/"
+                        target="_blank"
+                      >
+                        <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
+                      </a>
+                    </div>
+                    <p>
+                      On this Unicast, I’ve shared one of the most powerful
+                      ideas that I ever learned, an Idea called one percent
+                      rule. By the time you are in mid of any of your work by
+                      hardworking, there’s a high possibility that we lose our
+                      intention, it’s maybe you couldn’t find any results or
+                      maybe you were overspending your time
+                    </p>
+                  </div>
+                </div>
+                <div class="blog-btn">
+                  <a href="/episodes/ep_6" target="_blank">
+                    <i class="zmdi zmdi-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-blog-area wow fadeInUp">
+              <div class="card" data-wow-delay="300ms">
+                <div class="card-body" data-wow-delay="300ms">
+                  <div id="Container">
+                    <iframe
                       src="https://open.spotify.com/embed-podcast/episode/30Mhriw4VzXkhOhsZqi6AB"
                       width="100%"
                       height="232"
@@ -60,55 +107,6 @@ const Podcast = () => {
                 <div class="blog-btn">
                   <a href="/episodes/ep_5" target="_blank">
                     <i class="zmdi zmdi-long-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="single-blog-area wow fadeInUp">
-              <div className="card" data-wow-delay="300ms">
-                <div className="card-body" data-wow-delay="300ms">
-                  <div id="Container">
-                    <iframe
-                      src="https://open.spotify.com/embed-podcast/episode/2CITL9oJJYtJVSIDR22VNr"
-                      width="100%"
-                      height="232"
-                      frameborder="0"
-                      allowtransparency="true"
-                      allow="encrypted-media"
-                    ></iframe>
-                  </div>
-                  <div className="single-blog-text text-center">
-                    <a className="blog-title">
-                      Luis Serrano: On Unlocking The Intuition Behind Math and
-                      Machine Learning
-                    </a>
-                    <div className="post-meta">
-                      <a className="post-date">
-                        <i className="zmdi zmdi-alarm-check"></i> July 6, 2020
-                      </a>
-                      <a
-                        className="post-author"
-                        href="https://www.linkedin.com/in/luisgserrano/"
-                        target="_blank"
-                      >
-                        <i className="zmdi zmdi-account"></i> Luis Serrano
-                      </a>
-                    </div>
-                    <p className="card-text text-center">
-                      On this episode, I got a chance to speak with Luis about
-                      how unlocking the intuition behind mathematics and machine
-                      learning could impact your thinking and thought process of
-                      approaching any problem. Intense passion towards teaching
-                      resulted in authoring “Grokking Machine Learning” where
-                      someone can understand and teach Machine Learning with
-                      only stories..
-                    </p>
-                  </div>
-                </div>
-                <div className="blog-btn">
-                  <a href="/episodes/ep_4" target="_blank">
-                    <i className="zmdi zmdi-long-arrow-right"></i>
                   </a>
                 </div>
               </div>
