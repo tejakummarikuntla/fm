@@ -1,5 +1,5 @@
 module.exports = {
   MONGOURI:
-    "mongodb+srv://admin:123@cluster0.bjajc.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "//mongo db uri ",
   JWT_SECRET: "qwerty",
 };
