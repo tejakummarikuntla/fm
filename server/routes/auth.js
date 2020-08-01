@@ -10,7 +10,6 @@ const requireLogin = require("../middleware/requireLogin");
 const nodemailer = require("nodemailer");
 const { request } = require("request");
 const { response } = require("express");
-const f = require("node-fetch");
 var axios = require("axios");
 
 router.post("/signin", (req, res) => {
@@ -86,20 +85,18 @@ router.post("/subscribe", (req, res) => {
   }
 
   var data = JSON.stringify({
-    email_address: "muvvalachai05@gmail.com",
+    email_address: email,
     status: "subscribed",
-    merge_fields: { FNAME: "krishna" },
+    merge_fields: { FNAME: name },
   });
 
   var config = {
     method: "post",
-    url: "https://us17.api.mailchimp.com/3.0/lists/0e3d9da2d4/members",
+    url: "//url",
     headers: {
       "Content-Type": "application/json",
       Authorization:
-        "Basic Y2hhaXRhbnlhOmVkNDgzNDg0N2VhOWQ1ODAwZTZiNDRjZGMwZmM4ZGVlLXVzMTc=",
-      Cookie:
-        "ak_bmsc=5D37C6A92B22D3C064FCF1AF7A0699E117417C4DC7260000C602245F026F5750~plsjXG7mOYui4IjzXrhvZMre4YM299ZZ2+M4ELqiG0IjTivOk2r2OC1VGCQuHrqukzPyjPcHJqw7Vf2SBKV6LXRKRQ0nydnGmqtg4nkdO5nGoRj9VJgjO8pErhoqTu57PGNvURdGhENGfapSVFEUy2ZfwERe552Qoui2awp2ZEdxgdJbeDOPNqmmAiN7v0lXLmFamo2cepahrx6yZRqKHIgqBhFoDQap563baeaYC1aFM=; bm_sv=F8242107B04C5F0E35001837A2B6805D~fGgUXzc5sVJgvhQ0Y92SCu9DTtTNzf7TUa2X/zz3OmPUMZOAw+MaUYB1IrXt4qgpJmR+0E9coLUzp/wcSRw2BgzDXjfGEtEvoKL5IXDCoor4ptcXbHEqtr0M4BE90xgUNEzua3mmxNCyN9lgP/7Tg2ECZg9oasI5ZUlNRyxrANo=",
+        "auth //apikey",
     },
     data: data,
   };
@@ -136,7 +133,3 @@ router.post("/subscribe", (req, res) => {
   });
 });
 module.exports = router;
-
-// auth ed4834847ea9d5800e6b44cdc0fc8dee-us17
-// 0e3d9da2d4
-// https://us7.api.mailchimp.com/3.0/lists/0e3d9da2d4
