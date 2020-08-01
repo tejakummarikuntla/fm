@@ -1,7 +1,5 @@
 import React from "react";
 
-// font-family: 'Carter One', cursive;
-
 const about = () => {
   return (
     <section
@@ -21,6 +19,10 @@ const about = () => {
                 style={{ fontFamily: "Carter One", fontSize: "30px" }}
               >
                 Exploiting with <br /> Teja Kummarikuntla
+
+              <h3 className="wow fadeInUp" data-wow-delay="300ms">
+                Exploiting with Teja Kummarikuntla
+
               </h3>
               <p className="wow fadeInUp" data-wow-delay="300ms">
                 Spending time towards technologies fascinates me to learn and

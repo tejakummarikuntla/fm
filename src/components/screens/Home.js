@@ -6,6 +6,7 @@ import Navbar from "../sections/Navbar";
 import Contact from "../sections/Contact";
 import SubscribeNewsLetterForm from "../sections/Subscribe";
 
+
 const Home = () => {
   return (
     <>
@@ -13,7 +14,6 @@ const Home = () => {
       <About />
       <Podcast />
       <Contact />
-
       <Footer />
     </>
   );

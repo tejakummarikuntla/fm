@@ -193,7 +193,7 @@ class Contact extends Component {
                         <div style={{ color: "red" }}>
                           {this.state.nameError}
                         </div>
-                        <div className="col-12 col-lg-6">
+                      <div className="col-12 col-lg-6">
                           <div className="form-group">
                             <input
                               type="email"
@@ -265,8 +265,5 @@ class Contact extends Component {
     );
   }
 }
-
-//6LcpobgZAAAAAB9wc2oT0p9cTpyTw0HbFEFIure9  site key
-//6LcpobgZAAAAAA_T5lV8m2pni6q39wFALFTgrG9q secret key
 
 export default Contact;
