@@ -4,8 +4,6 @@ import Footer from "../sections/Footer";
 import Podcast from "../sections/Podcast";
 import Navbar from "../sections/Navbar";
 import Contact from "../sections/Contact";
-import SubscribeNewsLetterForm from "../sections/Subscribe";
-
 
 const Home = () => {
   return (

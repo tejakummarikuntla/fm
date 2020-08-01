@@ -13,16 +13,8 @@ const about = () => {
               <h6 className="wow fadeInUp" data-wow-delay="300ms">
                 {" "}
               </h6>
-              <h3
-                className="wow fadeInUp"
-                data-wow-delay="300ms"
-                style={{ fontFamily: "Carter One", fontSize: "30px" }}
-              >
-                Exploiting with <br /> Teja Kummarikuntla
-
               <h3 className="wow fadeInUp" data-wow-delay="300ms">
                 Exploiting with Teja Kummarikuntla
-
               </h3>
               <p className="wow fadeInUp" data-wow-delay="300ms">
                 Spending time towards technologies fascinates me to learn and

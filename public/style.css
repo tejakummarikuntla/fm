@@ -629,14 +629,6 @@ input:required {
   color: #ffffff;
 }
 
-
-/*Toast */
-#toast-container {
-  top: 30px !important;
-  right: 20px !important;
-  left: auto !important;
-}
-
 /* :: 6.0 Buttons Area CSS */
 .btn:focus {
   box-shadow: none;
@@ -996,6 +988,9 @@ input:required {
   background-color: #000000;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+}
+.header-area.sticky {
+  height: 75px;
 }
 
 /* :: 8.0 Hero Area CSS */
@@ -1525,7 +1520,7 @@ input:required {
 .about-us-countdown-area .about-content-text h3 {
   font-size: 40px;
   color: #ffffff;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }

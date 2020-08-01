@@ -1,8 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
+import M from "materialize-css";
 import { error, data } from "jquery";
-
-var Recaptcha = require("react-recaptcha");
-let recaptchaInstance;
 
 class Contact extends Component {
   constructor(props) {
@@ -11,108 +9,40 @@ class Contact extends Component {
       name: "",
       email: "",
       message: "",
-      isVerified: false,
-      isSent: false,
     };
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
-    this.recaptchaloaded = this.recaptchaloaded.bind(this);
-    this.verifyCaptch = this.verifyCaptch.bind(this);
-    this.resetRecaptcha = this.resetRecaptcha.bind(this);
   }
 
-  recaptchaloaded() {
-    console.log("captcha loaded");
-  }
-
-  validate() {
-    let nameError = "";
-    let emailError = "";
-
-    if (!this.state.name) {
-      nameError = "please fill the name";
-    }
-
-    if (!this.state.email.includes("@")) {
-      emailError = "Invalid Email";
-    }
-
-    if (emailError || nameError) {
-      this.setState({ emailError, nameError });
-      return false;
-    }
-
-    return true;
-  }
-
-  handleFormSubmit = (event) => {
+  handleFormSubmit(event) {
     event.preventDefault();
-    const isValid = this.validate();
-    if (isValid) {
-      if (this.state.isVerified) {
-        fetch("/contact", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            name: this.state.name,
-            email: this.state.email,
-            message: this.state.message,
-          }),
+    fetch("/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: this.state.name,
+        email: this.state.email,
+        message: this.state.message,
+      }),
 
-          data: this.state,
-        })
-          .then((result) => {
-            this.setState({
-              mailSent: result.data.sent,
-            });
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-
+      data: this.state,
+    })
+      .then((result) => {
         this.setState({
-          name: "",
-          email: "",
-          message: "",
-          nameError: "",
-          emailError: "",
-          isValid: false,
-          isSent: true,
+          mailSent: result.data.sent,
         });
-      } else {
-        alert("please verify you are a human");
-      }
-    }
-  };
+      })
+      .then(() => {
+        M.toast({ html: "sucess" });
+      })
+      .catch((err) => this.setState({ err: error.message }));
 
-  checkSent() {
-    let sentSucess = "";
-
-    if (this.state.isSent) {
-      sentSucess = "sent Scuess!";
-    }
-
-    if (sentSucess) {
-      this.setState({ sentSucess: true });
-    }
-  }
-
-  verifyCaptch(response) {
-    if (response) {
-      this.setState({
-        isVerified: true,
-        // isSent: true,
-      });
-    }
-  }
-
-  resetRecaptcha() {
-    recaptchaInstance.reset();
-  }
-
-  componentDidMount() {
-    window.setTimeout(() => this.setState({ renderRecaptcha: true }), 1000);
+    this.setState({
+      name: "",
+      email: "",
+      message: "",
+    });
   }
 
   render() {
@@ -190,10 +120,7 @@ class Contact extends Component {
                             />
                           </div>
                         </div>
-                        <div style={{ color: "red" }}>
-                          {this.state.nameError}
-                        </div>
-                      <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6">
                           <div className="form-group">
                             <input
                               type="email"
@@ -207,9 +134,6 @@ class Contact extends Component {
                               }
                             />
                           </div>
-                        </div>
-                        <div style={{ color: "red" }}>
-                          {this.state.emailError}
                         </div>
                         <div className="col-12">
                           <div className="form-group">
@@ -225,28 +149,12 @@ class Contact extends Component {
                                 this.setState({ message: e.target.value })
                               }
                             ></textarea>
-                            {this.state.renderRecaptcha ? (
-                              <Recaptcha
-                                sitekey="//captcha site key"
-                                render="explicit"
-                                theme="light"
-                                onChange={this.resetRecaptcha}
-                                verifyCallback={this.verifyCaptch}
-                                onloadCallback={this.recaptchaloaded}
-                                ref={(e) => (recaptchaInstance = e)}
-                              />
-                            ) : null}
                           </div>
                         </div>
-                        <div></div>
                         <div className="col-12">
                           <button
                             type="submit"
                             className="btn confer-btn"
-                            disabled={
-                              this.state.email.length < 10 ||
-                              this.state.message.length < 1
-                            }
                             onClick={(e) => this.handleFormSubmit(e)}
                           >
                             SEND MESSAGE
