@@ -34,7 +34,8 @@ const Podcast = () => {
                   </div>
                   <div class="single-blog-text text-center">
                     <a class="blog-title" href="/episodes/ep_5" target="_blank">
-                      On How to Transform Your Actions with One Percent Rule
+                      Unicast: On How to Transform Your Actions with One Percent
+                      Rule
                     </a>
                     <div class="post-meta">
                       <a class="post-date">
@@ -42,7 +43,7 @@ const Podcast = () => {
                       </a>
                       <a
                         class="post-author"
-                        href="https://www.linkedin.com/in/frankkane/"
+                        href="https://www.linkedin.com/in/tejakummarikuntla/"
                         target="_blank"
                       >
                         <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
@@ -65,7 +66,6 @@ const Podcast = () => {
                 </div>
               </div>
             </div>
-
             <div class="single-blog-area wow fadeInUp">
               <div class="card" data-wow-delay="300ms">
                 <div class="card-body" data-wow-delay="300ms">

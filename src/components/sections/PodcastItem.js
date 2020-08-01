@@ -20,7 +20,8 @@ const poditem = () => {
                 </div>
                 <div class="single-blog-text text-center">
                   <a class="blog-title" href="/episodes/ep_5" target="_blank">
-                    On How to Transform Your Actions with One Percent Rule
+                    Unicast: On How to Transform Your Actions with One Percent
+                    Rule
                   </a>
                   <div class="post-meta">
                     <a class="post-date">
@@ -28,7 +29,7 @@ const poditem = () => {
                     </a>
                     <a
                       class="post-author"
-                      href="https://www.linkedin.com/in/frankkane/"
+                      href="https://www.linkedin.com/in/tejakummarikuntla/"
                       target="_blank"
                     >
                       <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
