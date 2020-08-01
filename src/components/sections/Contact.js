@@ -227,7 +227,7 @@ class Contact extends Component {
                             ></textarea>
                             {this.state.renderRecaptcha ? (
                               <Recaptcha
-                                sitekey="6LcpobgZAAAAAB9wc2oT0p9cTpyTw0HbFEFIure9"
+                                sitekey="//captcha site key"
                                 render="explicit"
                                 theme="light"
                                 onChange={this.resetRecaptcha}
