@@ -11,6 +11,7 @@ import Episodes from "./components/screens/Episodes";
 import Ep_4 from "./components/screens/Blog_4";
 import Ep_5 from "./components/screens/Blog_5";
 import Ep_6 from "./components/screens/Blog_6";
+import Ep_7 from "./components/screens/Blog_7";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -44,6 +45,9 @@ const Routing = () => {
       <Route path="/episodes/ep_6">
         <Ep_6 />
       </Route>
+      <Route path="/episodes/ep_7">
+        <Ep_7 />
+      </Route>
       <Route path="/signin">
         <Signin />
       </Route>
@@ -61,6 +65,9 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep6">
         <Redirect to="/episodes/ep_6" />
+      </Route>
+      <Route exact path="/ep7">
+        <Redirect to="/episodes/ep_7" />
       </Route>
     </Switch>
   );

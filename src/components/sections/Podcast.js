@@ -19,6 +19,54 @@ const Podcast = () => {
                 <h4>Episodes</h4>
               </div>
             </div>
+
+            <div class="single-blog-area wow fadeInUp">
+              <div class="card" data-wow-delay="300ms">
+                <div class="card-body" data-wow-delay="300ms">
+                  <div id="Container">
+                    <iframe
+                      src="https://open.spotify.com/embed-podcast/episode/0HGH27BNoMu0X0lWewgANt"
+                      width="100%"
+                      height="232"
+                      frameborder="0"
+                      allowtransparency="true"
+                      allow="encrypted-media"
+                    ></iframe>
+                  </div>
+                  <div class="single-blog-text text-center">
+                    <a class="blog-title" href="/episodes/ep_7" target="_blank">
+                      Josh Starmer: On Founding StatQuest, and Pivoting Career
+                      into YouTube | Self-employment
+                    </a>
+                    <div class="post-meta">
+                      <a class="post-date">
+                        <i class="zmdi zmdi-alarm-check"></i> August 3, 2020
+                      </a>
+                      <a
+                        class="post-author"
+                        href="https://www.linkedin.com/in/joshua-starmer-95a554130/"
+                        target="_blank"
+                      >
+                        <i class="zmdi zmdi-account"></i> Josh Starmer
+                      </a>
+                    </div>
+                    <p>
+                      Josh Starmer is a passionate teacher who was a Genetics
+                      researcher at the University of North Carolina, Chapel
+                      Hill. These days Josh’s focus is on mathematic education
+                      and he’s literally revamping the way statistics have been
+                      taught in academics.
+                    </p>
+                  </div>
+                </div>
+                <div class="blog-btn">
+                  <a href="/episodes/ep_7" target="_blank">
+                    <i class="zmdi zmdi-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div class="single-blog-area wow fadeInUp">
               <div class="card" data-wow-delay="300ms">
                 <div class="card-body" data-wow-delay="300ms">
@@ -61,51 +109,6 @@ const Podcast = () => {
                 </div>
                 <div class="blog-btn">
                   <a href="/episodes/ep_6" target="_blank">
-                    <i class="zmdi zmdi-long-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="single-blog-area wow fadeInUp">
-              <div class="card" data-wow-delay="300ms">
-                <div class="card-body" data-wow-delay="300ms">
-                  <div id="Container">
-                    <iframe
-                      src="https://open.spotify.com/embed-podcast/episode/30Mhriw4VzXkhOhsZqi6AB"
-                      width="100%"
-                      height="232"
-                      frameborder="0"
-                      allowtransparency="true"
-                      allow="encrypted-media"
-                    ></iframe>
-                  </div>
-                  <div class="single-blog-text text-center">
-                    <a class="blog-title" href="/episodes/ep_5" target="_blank">
-                      Frank Kane: On How to Become a Successful Online
-                      Instructor in Technology | Self Employment{" "}
-                    </a>
-                    <div class="post-meta">
-                      <a class="post-date">
-                        <i class="zmdi zmdi-alarm-check"></i> July 20, 2020
-                      </a>
-                      <a
-                        class="post-author"
-                        href="https://www.linkedin.com/in/frankkane/"
-                        target="_blank"
-                      >
-                        <i class="zmdi zmdi-account"></i> Frank Kane
-                      </a>
-                    </div>
-                    <p class="card-text text-center">
-                      I’m so grateful to sit with Frank Kane, Founder of Sundog
-                      Education. Who’s deeply connected in the conversation and
-                      vulnerably revealed his life exploits and experience on
-                      making more than 1 million dollars with self-employment.
-                    </p>
-                  </div>
-                </div>
-                <div class="blog-btn">
-                  <a href="/episodes/ep_5" target="_blank">
                     <i class="zmdi zmdi-long-arrow-right"></i>
                   </a>
                 </div>

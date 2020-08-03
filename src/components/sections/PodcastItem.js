@@ -10,6 +10,52 @@ const poditem = () => {
               <div class="card-body" data-wow-delay="300ms">
                 <div id="Container">
                   <iframe
+                    src="https://open.spotify.com/embed-podcast/episode/0HGH27BNoMu0X0lWewgANt"
+                    width="100%"
+                    height="232"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+                </div>
+                <div class="single-blog-text text-center">
+                  <a class="blog-title" href="/episodes/ep_7" target="_blank">
+                    Josh Starmer: On Founding StatQuest, and Pivoting Career
+                    into YouTube | Self-employment
+                  </a>
+                  <div class="post-meta">
+                    <a class="post-date">
+                      <i class="zmdi zmdi-alarm-check"></i> August 3, 2020
+                    </a>
+                    <a
+                      class="post-author"
+                      href="https://www.linkedin.com/in/joshua-starmer-95a554130/"
+                      target="_blank"
+                    >
+                      <i class="zmdi zmdi-account"></i> Josh Starmer
+                    </a>
+                  </div>
+                  <p>
+                    Josh Starmer is a passionate teacher who was a Genetics
+                    researcher at the University of North Carolina, Chapel Hill.
+                    These days Josh’s focus is on mathematic education and he’s
+                    literally revamping the way statistics have been taught in
+                    academics.
+                  </p>
+                </div>
+              </div>
+              <div class="blog-btn">
+                <a href="/episodes/ep_7" target="_blank">
+                  <i class="zmdi zmdi-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="single-blog-area wow fadeInUp">
+            <div class="card" data-wow-delay="300ms">
+              <div class="card-body" data-wow-delay="300ms">
+                <div id="Container">
+                  <iframe
                     src="https://open.spotify.com/embed-podcast/episode/4dqM19MPjhkfOXAgnSAikD"
                     width="100%"
                     height="232"
