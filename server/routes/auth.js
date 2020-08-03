@@ -54,7 +54,7 @@ router.post("/contact", (req, res) => {
     secure: true,
     auth: {
       user: "muvvalachaitanya05@gmail.com",
-      pass: "", //password
+      pass: "muvval@05", //password
     },
   });
 
@@ -77,6 +77,7 @@ router.post("/contact", (req, res) => {
 });
 
 router.post("/subscribe", (req, res) => {
+	console.log("reached /Subscribe");
   const { name, email } = req.body;
 
   // Make sure fields are filled
@@ -90,46 +91,24 @@ router.post("/subscribe", (req, res) => {
     merge_fields: { FNAME: name },
   });
 
-  var config = {
-    method: "post",
-    url: "//url",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization:
-        "auth //apikey",
-    },
-    data: data,
-  };
-  // axios(config)
-  //   .then(function (response) {
-  //     console.log(JSON.stringify(response.data));
-  //   })
-  //   .catch(function (error) {
-  //     console.log(error);
-  //   });
+	var config = {
+  method: 'post',
+  url: 'https://us17.api.mailchimp.com/3.0/lists/0e3d9da2d4/members',
+  headers: { 
+    'Content-Type': 'application/json', 
+    'Authorization': 'Basic ', 
+  },
+  data : data
+};
 
-  axios(config, function (error, response, body) {
-    try {
-      var resObj = {};
-      if (response.statusCode === 200) {
-        resObj = {
-          success: `Subscribed using ${email}!`,
-          message: JSON.stringify(response.body),
-        };
-      } else {
-        resObj = {
-          error: `Error trying to subscribe ${email}. Please try again.`,
-          message: JSON.stringify(response.body),
-        };
-      }
-      res.send(resObj);
-    } catch (err) {
-      var resErrorObj = {
-        error: "There was an error with your request",
-        message: err.message,
-      };
-      res.send(resErrorObj);
-    }
-  });
+axios(config)
+.then(function (response) {
+  console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+  console.log(error);
+});
+
+
 });
 module.exports = router;
