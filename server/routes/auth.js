@@ -43,7 +43,8 @@ router.post("/signin", (req, res) => {
 });
 
 router.post("/contact", (req, res) => {
-  const { name, email, message } = req.body;
+  console.log("inside contact")
+	const { name, email, message } = req.body;
   if (!name || !email || !message) {
     return res.json("please fill all the fields");
   }
@@ -53,8 +54,8 @@ router.post("/contact", (req, res) => {
     port: 465,
     secure: true,
     auth: {
-      user: "muvvalachaitanya05@gmail.com",
-      pass: "muvval@05", //password
+	user: "muvvalachaitanya05@gmail.com",
+	pass: process.env.MAIL_PASS,
     },
   });
 
@@ -96,7 +97,7 @@ router.post("/subscribe", (req, res) => {
   url: 'https://us17.api.mailchimp.com/3.0/lists/0e3d9da2d4/members',
   headers: { 
     'Content-Type': 'application/json', 
-    'Authorization': 'Basic ', 
+    'Authorization': process.env.BASIC_AUTH, 
   },
   data : data
 };
