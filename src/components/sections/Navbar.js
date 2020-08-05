@@ -104,6 +104,18 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
+                      href="/newsletter"
+                      target="_blank"
+                      id="tooltip184698705"
+                      target="_blank"
+                      style={{ color: "white" }}
+                    >
+                      NEWSLETTER
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
                       href="https://tejakummarikuntla.github.io/blog"
                       target="_blank"
                       id="tooltip184698705"

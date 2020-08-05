@@ -9,9 +9,11 @@ import {
 import Home from "./components/screens/Home";
 import Episodes from "./components/screens/Episodes";
 import Ep_4 from "./components/screens/Blog_4";
+import Ep_2 from "./components/screens/Blog_2";
 import Ep_5 from "./components/screens/Blog_5";
 import Ep_6 from "./components/screens/Blog_6";
 import Ep_7 from "./components/screens/Blog_7";
+import Error from "./components/sections/Error";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -36,6 +38,9 @@ const Routing = () => {
       <Route path="/episodes/all">
         <Episodes />
       </Route>
+      <Route path="/episodes/ep_2">
+        <Ep_2 />
+      </Route>
       <Route path="/episodes/ep_4">
         <Ep_4 />
       </Route>
@@ -54,8 +59,18 @@ const Routing = () => {
       <Route path="/contact">
         <Contact />
       </Route>
+      <Route
+        path="/newsletter"
+        component={() => {
+          window.location = "http://eepurl.com/g_FSzP";
+          return null;
+        }}
+      />
       <Route exact path="/episodes">
         <Redirect to="/episodes/all" />
+      </Route>
+      <Route exact path="/ep2">
+        <Redirect to="/episodes/ep_2" />
       </Route>
       <Route exact path="/ep4">
         <Redirect to="/episodes/ep_4" />
@@ -68,6 +83,12 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep7">
         <Redirect to="/episodes/ep_7" />
+      </Route>
+      <Route path="*">
+        <Error />
+      </Route>
+      <Route path="*/">
+        <Error />
       </Route>
     </Switch>
   );

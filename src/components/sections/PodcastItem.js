@@ -157,7 +157,7 @@ const poditem = () => {
                   ></iframe>
                 </div>
                 <div className="single-blog-text text-center">
-                  <a className="blog-title">
+                  <a className="blog-title" href="/episodes/ep_4">
                     Luis Serrano: On Unlocking The Intuition Behind Math and
                     Machine Learning
                   </a>
@@ -256,7 +256,7 @@ const poditem = () => {
                   ></iframe>{" "}
                 </div>
                 <div className="single-blog-text text-center">
-                  <a className="blog-title">
+                  <a className="blog-title" href="/episodes/ep_2">
                     Saikiran Sondarkar: On Disrupting the Education with
                     LetsUpgrade
                   </a>
@@ -286,10 +286,7 @@ const poditem = () => {
                 </div>
               </div>
               <div className="blog-btn">
-                <a
-                  href="https://open.spotify.com/episode/3AAWZ1tpogDQzECnn7p7Kt"
-                  target="_blank"
-                >
+                <a href="/episodes/ep_2" target="_blank">
                   <i className="zmdi zmdi-long-arrow-right"></i>
                 </a>
               </div>
