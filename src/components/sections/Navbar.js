@@ -54,10 +54,10 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="#" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <a class="nav-brand">
                   <img
-                    src="/img/core-img/site-logo.png"
+                    src="/img/core-img/sitelogo2.png"
                     alt="Teja Kummarikuntla"
                     height="100"
                     width="200"
@@ -116,13 +116,13 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://tejakummarikuntla.github.io/blog"
+                      href="/team"
                       target="_blank"
                       id="tooltip184698705"
-                      target="_blank"
+                      target="_self"
                       style={{ color: "white" }}
                     >
-                      BLOG
+                      TEAM
                     </NavLink>
                   </NavItem>
                   <NavItem>

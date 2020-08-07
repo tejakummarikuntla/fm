@@ -212,8 +212,9 @@ export default class Subscribe extends Component {
                         />
                         <p style={{ color: "red" }}>{this.state.emailError}</p>
                         <Button
+                          className="btn confer-btn"
                           variant="contained"
-                          color="primary"
+                          color="white"
                           disabled={this.state.email.length < 10}
                           onClick={(e) => this.handleSubscribe(e)}
                           type="submit"

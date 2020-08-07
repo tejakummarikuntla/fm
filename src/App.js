@@ -14,6 +14,7 @@ import Ep_5 from "./components/screens/Blog_5";
 import Ep_6 from "./components/screens/Blog_6";
 import Ep_7 from "./components/screens/Blog_7";
 import Error from "./components/sections/Error";
+import Team from "./components/screens/Team";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -58,6 +59,9 @@ const Routing = () => {
       </Route>
       <Route path="/contact">
         <Contact />
+      </Route>
+      <Route path="/team">
+        <Team />
       </Route>
       <Route
         path="/newsletter"
