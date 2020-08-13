@@ -54,7 +54,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
                 <a class="nav-brand">
                   <img
                     src="/img/core-img/sitelogo2.png"
@@ -128,12 +128,11 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://tejakummarikuntla.github.io/notes"
+                      href="/sponsor"
                       id="tooltip112445449"
-                      target="_blank"
                       style={{ color: "white" }}
                     >
-                      NOTES
+                      SUPPORT US
                     </NavLink>
                     {/*<UncontrolledTooltip delay={0} target="tooltip112445449">
                       Star us on Github

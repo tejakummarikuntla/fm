@@ -629,7 +629,6 @@ input:required {
   color: #ffffff;
 }
 
-
 /*Toast */
 #toast-container {
   top: 30px !important;
@@ -3373,6 +3372,12 @@ input:required {
   position: relative;
   z-index: 1;
   width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .our-sponsor-area .single-sponsor {
   border: 1px solid #444675;
@@ -3414,6 +3419,7 @@ input:required {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
   max-height: 110px;
+  border-radius: 10px;
   opacity: 0.5;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

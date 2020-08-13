@@ -125,8 +125,7 @@ class Contact extends Component {
                 className="section-heading-2 text-center wow fadeInUp"
                 data-wow-delay="300ms"
               >
-                <p>Have Question?</p>
-                <h4>Contact us</h4>
+                <h4>Sponsor Us</h4>
               </div>
             </div>
           </div>
@@ -193,7 +192,7 @@ class Contact extends Component {
                         <div style={{ color: "red" }}>
                           {this.state.nameError}
                         </div>
-                      <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6">
                           <div className="form-group">
                             <input
                               type="email"

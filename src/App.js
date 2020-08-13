@@ -13,8 +13,10 @@ import Ep_2 from "./components/screens/Blog_2";
 import Ep_5 from "./components/screens/Blog_5";
 import Ep_6 from "./components/screens/Blog_6";
 import Ep_7 from "./components/screens/Blog_7";
+import Ep_8 from "./components/screens/Blog_8";
 import Error from "./components/sections/Error";
 import Team from "./components/screens/Team";
+import Sponsor from "./components/screens/Sponsor";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -54,6 +56,9 @@ const Routing = () => {
       <Route path="/episodes/ep_7">
         <Ep_7 />
       </Route>
+      <Route path="/episodes/ep_8">
+        <Ep_8 />
+      </Route>
       <Route path="/signin">
         <Signin />
       </Route>
@@ -63,6 +68,9 @@ const Routing = () => {
       <Route path="/team">
         <Team />
       </Route>
+      <Route path="/sponsor">
+        <Sponsor />
+      </Route>
       <Route
         path="/newsletter"
         component={() => {
@@ -70,6 +78,9 @@ const Routing = () => {
           return null;
         }}
       />
+      <Route exact path="/home">
+        <Redirect to="/" />
+      </Route>
       <Route exact path="/episodes">
         <Redirect to="/episodes/all" />
       </Route>
@@ -87,6 +98,9 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep7">
         <Redirect to="/episodes/ep_7" />
+      </Route>
+      <Route exact path="/ep8">
+        <Redirect to="/episodes/ep_8" />
       </Route>
       <Route path="*">
         <Error />

@@ -102,23 +102,16 @@ export default class Subscribe extends Component {
                   >
                     <a href="#" className="footer-logo">
                       <img
-                        src="/img/core-img/site-logo.png"
+                        src="/img/core-img/sitelogo2.png"
                         height="100"
                         width="200"
                         alt=""
                       />
                     </a>
-                    <p>Learn | Innovate | Deliver</p>
 
                     <div className="social-info">
                       <a
-                        href="https://www.facebook.com/teja.kummarikuntla"
-                        target="_blank"
-                      >
-                        <i className="zmdi zmdi-facebook"></i>
-                      </a>
-                      <a
-                        href="https://www.instagram.com/tejakummarikuntla"
+                        href="https://www.instagram.com/exploit.chat"
                         target="_blank"
                       >
                         <i className="zmdi zmdi-instagram"></i>
@@ -134,18 +127,6 @@ export default class Subscribe extends Component {
                         target="_blank"
                       >
                         <i className="zmdi zmdi-linkedin"></i>
-                      </a>
-                      <a
-                        href="https://www.github.com/tejakummarikuntla"
-                        target="_blank"
-                      >
-                        <i className="zmdi zmdi-github"></i>
-                      </a>
-                      <a
-                        href="https://stackoverflow.com/users/8700619/teja-kummarikuntla"
-                        target="_blank"
-                      >
-                        <i className="zmdi zmdi-stackoverflow"></i>
                       </a>
                     </div>
                   </div>

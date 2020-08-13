@@ -3,7 +3,9 @@ import About from "../sections/About";
 import Footer from "../sections/Footer";
 import Podcast from "../sections/Podcast";
 import Navbar from "../sections/Navbar";
-import Contact from "../sections/Contact";
+import Testimonal from "../sections/Testimonals";
+import CarouselPage from "../sections/ListnersTestimonials";
+import Sponsors from "../sections/Sponsors";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -15,7 +17,16 @@ const Home = () => {
       <Navbar />
       <About />
       <Podcast />
-      <Contact />
+
+      <section
+        class="testimonial text-center"
+        style={{ backgroundColor: "#151853", textAlign: "center" }}
+      >
+        <div className="container">
+          <Sponsors />
+        </div>
+        <Testimonal />
+      </section>
       <Footer />
     </>
   );
