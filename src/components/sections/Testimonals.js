@@ -76,7 +76,7 @@ export default ({
     {
       customerName: "Radmila ercegovac",
       customerProfile: "Marketing Research, Manning",
-      imageSrc: "../img/core-img/radmilla.jpeg",
+      imageSrc: "../img/core-img/radmila.jpg",
       quote:
         "Great podcast with interesting guests and an original approach. Looking forward to further collaboration",
     },
