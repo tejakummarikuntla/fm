@@ -20,7 +20,6 @@ const CarouselPage = () => {
           data-wow-delay="300ms"
         >
           <p>What we hear</p>
-          <h4>TESTIMONIALS</h4>
         </div>
         <MDBCarousel
           activeItem={1}
