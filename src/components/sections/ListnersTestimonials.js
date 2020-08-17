@@ -24,7 +24,7 @@ const CarouselPage = () => {
         </div>
         <MDBCarousel
           activeItem={1}
-          length={3}
+          length={4}
           showControls={true}
           showIndicators={false}
           className="z-depth-1"
@@ -35,13 +35,19 @@ const CarouselPage = () => {
               <MDBView>
                 <Testimonial>
                   <p style={{ color: "white" }}>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia.
+                    The work you do here is so inspirational to me.. the way of
+                    speaking and providing valuable information to others is
+                    fascinating.. personally I liked "on hiking your own hike" ,
+                    that mostly meant my life ..on how most of the people here
+                    running towards some profession that we don't want to do ..
+                    I love to art works but I coudnt able to take up a career on
+                    that.. listening to your podcast made a change in my
+                    thinking towards a career towards my interest .. I wish your
+                    work grows with lots of success.
                   </p>
                 </Testimonial>
                 <CustomerName>
-                  <h7 style={{ color: "#ffffff" }}> - Chaitanya</h7>
+                  <h6 style={{ color: "#ffffff" }}> - Pragarthi Muthukumar</h6>
                 </CustomerName>
               </MDBView>
             </MDBCarouselItem>
@@ -49,13 +55,17 @@ const CarouselPage = () => {
               <MDBView>
                 <Testimonial>
                   <p style={{ color: "white" }}>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia.
+                    Teja is an excellent speaker and always a joy to listen. He
+                    has insightful perspectives and brings in a catalog of
+                    interesting conversations. A perfect mix of - Technology,
+                    Humour and Experience. The points raised over each episode
+                    are highly succinct. The podcast has ample of real life
+                    examples, resources and learning. Eagerly looking forward to
+                    the next ones. DEFINITELY worth a listen!
                   </p>
                 </Testimonial>
                 <CustomerName>
-                  <h6 style={{ color: "#ffffff" }}> - Chaitanya</h6>
+                  <h6 style={{ color: "#ffffff" }}> - Jyothirmai Thimmaraju</h6>
                 </CustomerName>
               </MDBView>
             </MDBCarouselItem>
@@ -63,13 +73,32 @@ const CarouselPage = () => {
               <MDBView>
                 <Testimonial>
                   <p style={{ color: "white" }}>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia.
+                    A Worthwhile Listen !! Greatly enjoyed Teja's perspective of
+                    exploring the Tech. A top-shelf podcast with clear and
+                    concise matter. The way you deal with guests is
+                    impressive.Thank you for all your efforts and for providing
+                    good content.
                   </p>
                 </Testimonial>
                 <CustomerName>
-                  <h6 style={{ color: "#ffffff" }}> - Chaitanya</h6>
+                  <h6 style={{ color: "#ffffff" }}> - Sai Sumanth</h6>
+                </CustomerName>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="4">
+              <MDBView>
+                <Testimonial>
+                  <p style={{ color: "white" }}>
+                    This podcast is helping out people who want to learn or know
+                    about technical domain skills which are really helpfull in
+                    this competetive world to acheive something. Unicast episode
+                    was really impactfull hope will get more. “Every time I see
+                    a new episode I learn something new. Excellent work on the
+                    interview questions!.
+                  </p>
+                </Testimonial>
+                <CustomerName>
+                  <h6 style={{ color: "#ffffff" }}> - Anonymous</h6>
                 </CustomerName>
               </MDBView>
             </MDBCarouselItem>

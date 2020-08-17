@@ -26,6 +26,7 @@ const Home = () => {
           <Sponsors />
         </div>
         <Testimonal />
+        <CarouselPage />
       </section>
       <Footer />
     </>
