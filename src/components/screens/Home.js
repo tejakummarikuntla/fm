@@ -5,7 +5,7 @@ import Podcast from "../sections/Podcast";
 import Navbar from "../sections/Navbar";
 import Testimonal from "../sections/Testimonals";
 import CarouselPage from "../sections/ListnersTestimonials";
-import Sponsors from "../sections/Sponsors";
+import Sponsors from "../sections/Sponsor";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -13,6 +13,14 @@ const Home = () => {
     <>
       <Helmet>
         <title>Exploiting with Teja Kummarikuntla</title>{" "}
+        <meta
+          name="keywords"
+          content="Exploiting, Exploit chat, exploit.chat, podcast, Exploiting with Teja Kummarikuntla"
+        ></meta>
+        <meta
+          name="description"
+          content="A Pocast initiative by Teja Kummarikuntla about sharing potential and purposeful exploits by various people in different situations in life, technology, business etc."
+        ></meta>
       </Helmet>
       <Navbar />
       <About />
@@ -22,11 +30,11 @@ const Home = () => {
         class="testimonial text-center"
         style={{ backgroundColor: "#151853", textAlign: "center" }}
       >
-        <div className="container">
-          <Sponsors />
-        </div>
         <Testimonal />
         <CarouselPage />
+        <div className="container" style={{ backgroundColor: "#151853" }}>
+          <Sponsors />
+        </div>
       </section>
       <Footer />
     </>

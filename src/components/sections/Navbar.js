@@ -54,9 +54,15 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
-                <a class="nav-brand">
+              <NavbarBrand
+                className="mr-lg-5"
+                href="https://exploit.chat"
+                target="_self"
+                tag={Link}
+              >
+                <a class="nav-brand" href="https://exploit.chat">
                   <img
+                    href="https://exploit.chat"
                     src="/img/core-img/sitelogo2.png"
                     alt="Teja Kummarikuntla"
                     height="100"
@@ -82,9 +88,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      id="tooltip333589074"
                       href="/"
                       target="_self"
+                      id="tooltip333589074"
                       style={{ color: "white" }}
                     >
                       HOME

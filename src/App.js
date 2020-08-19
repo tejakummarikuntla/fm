@@ -17,7 +17,8 @@ import Ep_8 from "./components/screens/Blog_8";
 import Ep_9 from "./components/screens/Blog_9";
 import Error from "./components/sections/Error";
 import Team from "./components/screens/Team";
-import Sponsor from "./components/screens/Sponsor";
+import SponsorUs from "./components/screens/Sponsor_us";
+import Sponsors from "./components/screens/Sponsors";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -73,7 +74,10 @@ const Routing = () => {
         <Team />
       </Route>
       <Route path="/sponsor">
-        <Sponsor />
+        <SponsorUs />
+      </Route>
+      <Route path="/sponsors">
+        <Sponsors />
       </Route>
       <Route
         path="/newsletter"

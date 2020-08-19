@@ -74,6 +74,13 @@ export default ({
         "Teja's a good interviewer; he was prepared, punctual, and had the technology figured out for good recording quality on both ends. I enjoyed our talk!",
     },
     {
+      customerName: "Michael Kennedy",
+      customerProfile: "Founder,Tak Python Training",
+      imageSrc: "../img/Podcast/episodes/ep_9/guest/Michael.jpg",
+      quote:
+        "I love Teja's Idea of The Exploiting Podcast about taking ownership of life, career, and what we are actually passionate about and taking them to the next level.His questions to me are deep with full of fun, we had a lovely and exciting conversation. That was fantastic.",
+    },
+    {
       customerName: "Radmila ercegovac",
       customerProfile: "Marketing Research, Manning",
       imageSrc: "../img/core-img/radmila.jpg",

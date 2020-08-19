@@ -1,7 +1,7 @@
 import React from "react";
+import Footer from "../sections/Footer";
 import Navbar from "../sections/Navbar";
 import EpBreadCrumb from "../sections/AllBreadCrumb";
-import Footer from "../sections/Footer";
 import PodcastItem from "../sections/PodcastItem";
 import { Helmet } from "react-helmet";
 

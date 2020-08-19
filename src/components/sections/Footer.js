@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import "../../css/indeStyle.css";
 import tw from "twin.macro";
 import { PrimaryButton } from "../../components/misc/Buttons.js";
 import notify from "./notify";
 import Button from "@material-ui/core/Button";
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
-
 const Column = tw.div`px-4 sm:px-0 sm:w-1/4 md:w-auto mt-12`;
 
 const SubscribeNewsletterColumn = tw(
@@ -90,8 +90,10 @@ export default class Subscribe extends Component {
   render() {
     return (
       <>
-        <a name="contact"></a>
-        <footer className="footer-area bg-img bg-overlay-2 section-padding-100-0">
+        <footer
+          className="footer-area bg-img bg-overlay-2 section-padding-100-0"
+          // style={{ backgroundColor: "#151853", marginTop: "10px" }}
+        >
           <div className="main-footer-area">
             <div className="container">
               <div className="row">
