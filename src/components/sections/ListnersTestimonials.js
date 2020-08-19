@@ -62,7 +62,7 @@ export default ({
     {
       customerName: "Pragarthi muthukumar ",
       quote:
-        "The work you do here is so inspirational to me.. the way of speaking and providing valuable information to others  is fascinating.. personally I liked 'on hiking your own hike' , that mostly meant my life ..on how  most of the people here running towards some profession that we don't want to do .. I love to art works but I coudnt able to take up a career on that.. listening to your podcast made a change in my thinking towards a career towards my interest .. I wish your work grows with lots of success.",
+        "The work that Teja does is so inspirational to me, the way of speaking and providing valuable information to others is fascinating.. personally I liked 'On Hiking Your Own Hike', that mostly meant my life on how most of the people here running towards some profession that we don't want to do. I love to art-works but I couldn't able to take up a career on that. Listening to Teja's Podcast made a change in my thinking towards a career towards my interest. I wish your work grows with lots of success. ",
     },
     {
       customerName: "Jyothirmai Thimmaraju",
@@ -72,17 +72,17 @@ export default ({
     {
       customerName: "Sai Sumanth",
       quote:
-        "A Worthwhile Listen!! Greatly enjoyed Teja's perspective of exploring the Tech. A top-shelf podcast with clear and concise matter. The way you deal with guests is impressive.Thank you for all your efforts and for providing good content.",
+        "A Worthwhile Listen!! Greatly enjoyed Teja's perspective of exploring the Tech. A top-shelf podcast with a clear and concise matter. The way you deal with guests is impressive. Thank you for all your efforts and for providing good content. ",
     },
     {
       customerName: "Sruthi",
       quote:
-        "I can say with no doubt that the exploiting podcast is really wonderful,the conversations are absolutely intresting ,informative and entertaining ,  I could see Teja's indepth home work for all the podcast as it turns out very professional when we listen, keep doing this ,best wishes. ",
+        "I can say with no doubt that The Exploiting Podcast is really wonderful, the conversations are absolutely interesting, informative and entertaining,  I could see Teja's in-depth homework for all the podcast as it turns out very professional when we listen, keep doing this, best wishes. ",
     },
     {
       customerName: "Anonymous",
       quote:
-        "This podcast is helping out people who want to learn or know about technical domain skills which are really helpfull in this competetive world to acheive something. Unicast episode was really impactfull hope will get more.'Every time I see a new episode I learn something new. Excellent work on the interview questions!'.",
+        "The Exploiting podcast is helping out people who want to learn or know about technical domain skills which are really helpful in this competitive world to achieve something. The unicast episode was really impactful hope will get more.'Every time I see a new episode I learn something new. Excellent work on the interview questions!.'",
     },
   ],
 }) => {
