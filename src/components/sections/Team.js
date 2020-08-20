@@ -69,7 +69,7 @@ const Team = () => {
                 data-wow-delay="300ms"
               >
                 <div class="speaker-single-thumb">
-                  <img src="img/gif/chaitanyaa.gif" alt="" />
+                  <img src="img/gif/chaitanya.gif" alt="" />
                 </div>
                 <div class="social-info">
                   <a href="https://twitter.com/muvvalachaitan1">
