@@ -104,7 +104,7 @@ export default class Subscribe extends Component {
                   >
                     <a href="#" className="footer-logo">
                       <img
-                        src="/img/core-img/sitelogo2.png"
+                        src="/img/core-img/Exploiting_logo.png"
                         height="100"
                         width="200"
                         alt=""

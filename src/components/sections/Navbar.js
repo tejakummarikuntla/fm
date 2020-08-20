@@ -63,7 +63,7 @@ class DemoNavbar extends React.Component {
                 <a class="nav-brand" href="https://exploit.chat">
                   <img
                     href="https://exploit.chat"
-                    src="/img/core-img/sitelogo2.png"
+                    src="/img/core-img/Exploiting_logo.png"
                     alt="Teja Kummarikuntla"
                     height="100"
                     width="200"
