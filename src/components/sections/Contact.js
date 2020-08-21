@@ -1,5 +1,5 @@
 import React, { Component, useState } from "react";
-import { error, data } from "jquery";
+import { API } from "../../config";
 
 var Recaptcha = require("react-recaptcha");
 let recaptchaInstance;
@@ -49,7 +49,7 @@ class Contact extends Component {
     const isValid = this.validate();
     if (isValid) {
       if (this.state.isVerified) {
-        fetch("/contact", {
+        fetch(`${API}/contact`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

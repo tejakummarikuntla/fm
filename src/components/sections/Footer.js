@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { API } from "../../config";
 import tw from "twin.macro";
 import { PrimaryButton } from "../../components/misc/Buttons.js";
 import notify from "./notify";
@@ -58,7 +59,7 @@ export default class Subscribe extends Component {
     const isValid = this.validation();
     if (isValid) {
       event.preventDefault();
-      fetch("/subscribe", {
+      fetch(`${API}/subscribe`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

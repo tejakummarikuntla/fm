@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
+import { API } from "../../config";
 import { UserContext } from "../../App";
 import M from "materialize-css";
 
@@ -17,7 +18,7 @@ const Signin = () => {
       M.toast({ html: "email Invalid", classes: "#c62828 red darken-3" });
       return;
     }
-    fetch("/signin", {
+    fetch(`${API}/signin`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

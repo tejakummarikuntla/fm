@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
+import { API } from "../../config";
 import M from "materialize-css";
 
 const SignUp = () => {
@@ -18,7 +19,7 @@ const SignUp = () => {
       return;
     }
 
-    fetch("/signup", {
+    fetch(`${API}/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
