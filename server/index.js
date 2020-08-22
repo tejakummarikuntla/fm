@@ -8,11 +8,17 @@ const { MONGOURI } = require("./config/keys");
 const cors = require("cors");
 require("./models/user");
 
+const authRoutes = require('./routes/auth');
+
 //express server doesn't automatically parse the request to json we need tell our sever to parse
 
 app.use(express.json());
 app.use(cors());
-app.use(require("./routes/auth"));
+
+
+//route middlewares
+
+app.use('/api',authRoutes);
 
 mongoose.connect(MONGOURI, {
   useNewUrlParser: true,

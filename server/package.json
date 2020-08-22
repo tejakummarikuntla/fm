@@ -19,6 +19,7 @@
     "nodemailer-mailgun-transport": "^2.0.0",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "nodemon": "^2.0.4",
+    "pm2": "^4.4.1",
     "request": "^2.88.2",
     "superagent": "^5.3.1"
   },
