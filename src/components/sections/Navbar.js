@@ -57,7 +57,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
                 <a class="nav-brand">
                   <img
-                    src="/img/core-img/sitelogo2.png"
+                    src="/img/core-img/Exploiting_logo.png"
                     alt="Teja Kummarikuntla"
                     height="100"
                     width="200"

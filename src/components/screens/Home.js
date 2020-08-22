@@ -22,10 +22,11 @@ const Home = () => {
         class="testimonial text-center"
         style={{ backgroundColor: "#151853", textAlign: "center" }}
       >
+        <Testimonal />
+        <CarouselPage />
         <div className="container">
           <Sponsors />
         </div>
-        <Testimonal />
       </section>
       <Footer />
     </>
