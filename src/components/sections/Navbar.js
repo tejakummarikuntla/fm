@@ -54,16 +54,15 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
-                <a class="nav-brand">
-                  <img
-                    src="/img/core-img/Exploiting_logo.png"
-                    alt="Teja Kummarikuntla"
-                    height="100"
-                    width="200"
-                  />
-                </a>
-              </NavbarBrand>
+              <a class="nav-brand" href="/">
+                <img
+                  src="/img/core-img/Exploiting_logo.png"
+                  alt="Teja Kummarikuntla"
+                  height="100"
+                  width="200"
+                />
+              </a>
+
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
