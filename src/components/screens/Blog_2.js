@@ -5,10 +5,14 @@ import BlogBreadCrumb from "../sections/Episodes/BreadCrumbEp_2";
 import Ep_2 from "../sections/Episodes/Episode_2";
 import Sidebar from "../sections/Episodes/Sidebar_2";
 import MyComment from "../sections/DisqusCom";
+import { Helmet } from "react-helmet";
 
 const Blogarea = () => {
   return (
     <>
+      <Helmet>
+        <title>Ep3 : Saikiran Sondarkar </title>{" "}
+      </Helmet>
       <Navbar />
       <BlogBreadCrumb />
       <br />

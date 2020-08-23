@@ -43,8 +43,8 @@ router.post("/signin", (req, res) => {
 });
 
 router.post("/contact", (req, res) => {
-  console.log("inside contact")
-	const { name, email, message } = req.body;
+  console.log("inside contact");
+  const { name, email, message } = req.body;
   if (!name || !email || !message) {
     return res.json("please fill all the fields");
   }
@@ -54,8 +54,8 @@ router.post("/contact", (req, res) => {
     port: 465,
     secure: true,
     auth: {
-	user: "muvvalachaitanya05@gmail.com",
-	pass: process.env.MAIL_PASS,
+      user: "muvvalachaitanya05@gmail.com",
+      pass: process.env.MAIL_PASS,
     },
   });
 
@@ -78,7 +78,7 @@ router.post("/contact", (req, res) => {
 });
 
 router.post("/subscribe", (req, res) => {
-	console.log("reached /Subscribe");
+  console.log("reached /Subscribe");
   const { name, email } = req.body;
 
   // Make sure fields are filled
@@ -92,24 +92,26 @@ router.post("/subscribe", (req, res) => {
     merge_fields: { FNAME: name },
   });
 
-	var config = {
-  method: 'post',
-  url: 'https://us17.api.mailchimp.com/3.0/lists/0e3d9da2d4/members',
-  headers: { 
-    'Content-Type': 'application/json', 
-    'Authorization': process.env.BASIC_AUTH, 
-  },
-  data : data
-};
+  var config = {
+    method: "post",
+    url: "https://us17.api.mailchimp.com/3.0/lists/0e3d9da2d4/members",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: process.env.BASIC_AUTH,
+    },
+    data: data,
+  };
 
-axios(config)
-.then(function (response) {
-  console.log(JSON.stringify(response.data));
-})
-.catch(function (error) {
-  console.log(error);
+  axios(config)
+    .then(function (response) {
+      console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 });
 
-
+router.get("/check", (req, res) => {
+  return res.send("running");
 });
 module.exports = router;
