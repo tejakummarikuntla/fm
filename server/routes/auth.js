@@ -112,6 +112,6 @@ router.post("/subscribe", (req, res) => {
 });
 
 router.get("/check", (req, res) => {
-  return res.send("running");
+  console.log("Backend running......");
 });
 module.exports = router;

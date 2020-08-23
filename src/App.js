@@ -16,6 +16,7 @@ import Ep_7 from "./components/screens/Blog_7";
 import Ep_8 from "./components/screens/Blog_8";
 import Ep_9 from "./components/screens/Blog_9";
 import Error from "./components/sections/Error";
+import Check from "./components/sections/bcheck";
 import Team from "./components/screens/Team";
 import Sponsor from "./components/screens/Sponsor";
 import Signin from "./components/screens/Signin";
@@ -74,6 +75,9 @@ const Routing = () => {
       </Route>
       <Route path="/sponsor">
         <Sponsor />
+      </Route>
+      <Route path="/backend">
+        <Check />
       </Route>
       <Route
         path="/newsletter"
