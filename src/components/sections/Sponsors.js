@@ -17,16 +17,6 @@ const Sponsor = () => {
             <div class="single-partner">
               <ul>
                 <li>
-                  <a href="https://talkpython.fm/exploiting" target="_blank">
-                    {" "}
-                    <img
-                      style={{ borderRadius: "10px" }}
-                      src="../img/core-img/TalkPython.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
                   <a href="https://manning.com" target="_blank">
                     {" "}
                     <img
@@ -34,6 +24,16 @@ const Sponsor = () => {
                         borderRadius: "10px",
                       }}
                       src="../img/core-img/manning_logo.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://talkpython.fm/exploiting" target="_blank">
+                    {" "}
+                    <img
+                      style={{ borderRadius: "10px" }}
+                      src="../img/core-img/TalkPython.png"
                       alt=""
                     />
                   </a>
