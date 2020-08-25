@@ -10,6 +10,49 @@ const poditem = () => {
               <div class="card-body" data-wow-delay="300ms">
                 <div id="Container">
                   <iframe
+                    src="https://open.spotify.com/embed-podcast/episode/4p0BkFGr4tuLWZ0Q7ERxH6"
+                    width="100%"
+                    height="232"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+                </div>
+                <div class="single-blog-text text-center">
+                  <a class="blog-title" href="/episodes/ep_10" target="_blank">
+                    Unicast: On Killing ANTs, Automatic Negative Thoughts
+                  </a>
+                  <div class="post-meta">
+                    <a class="post-date">
+                      <i class="zmdi zmdi-alarm-check"></i> Aug 24, 2020
+                    </a>
+                    <a
+                      class="post-author"
+                      href="https://www.linkedin.com/in/tejakummarikuntla/"
+                      target="_blank"
+                    >
+                      <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
+                    </a>
+                  </div>
+                  <p>
+                    In this Unicast, I’ve shared a practical todo that could
+                    transform and help you with Killing Automatic Negative
+                    Thoughts using Spot, Stop, and Swap.
+                  </p>
+                </div>
+              </div>
+              <div class="blog-btn">
+                <a href="/episodes/ep_10" target="_blank">
+                  <i class="zmdi zmdi-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="single-blog-area wow fadeInUp">
+            <div class="card" data-wow-delay="300ms">
+              <div class="card-body" data-wow-delay="300ms">
+                <div id="Container">
+                  <iframe
                     src="https://open.spotify.com/embed-podcast/episode/0A0n4MmmR7ybo30Pl5ZmLU"
                     width="100%"
                     height="232"

@@ -93,6 +93,7 @@ export default class Subscribe extends Component {
         <footer
           className="footer-area bg-img bg-overlay-2 section-padding-100-0"
           // style={{ backgroundColor: "#151853", marginTop: "10px" }}
+          id="footer"
         >
           <div className="main-footer-area">
             <div className="container">

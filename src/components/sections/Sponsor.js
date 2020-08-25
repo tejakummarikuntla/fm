@@ -17,24 +17,24 @@ const Sponsor = () => {
             <div class="single-partner">
               <ul>
                 <li>
-                  <a href="https://manning.com" target="_blank">
+                  <a href="https://talkpython.fm/exploiting" target="_blank">
                     {" "}
                     <img
                       style={{
                         borderRadius: "10px",
                       }}
-                      src="../img/core-img/manning_logo.png"
+                      src="../img/core-img/TalkPython.png"
                       alt=""
                     />
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://www.guvi.io" target="_blank">
+                  <a href="https://manning.com" target="_blank">
                     {" "}
                     <img
                       style={{ borderRadius: "10px" }}
-                      src="../img/core-img/logo_guvi.png"
+                      src="../img/core-img/manning_logo.png"
                       alt=""
                     />
                   </a>

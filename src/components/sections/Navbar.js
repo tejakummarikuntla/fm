@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Headroom from "headroom.js";
 import {
   Button,
@@ -54,22 +53,15 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand
-                className="mr-lg-5"
-                href="https://exploit.chat"
-                target="_self"
-                tag={Link}
-              >
-                <a class="nav-brand" href="https://exploit.chat">
-                  <img
-                    href="https://exploit.chat"
-                    src="/img/core-img/Exploiting_logo.png"
-                    alt="Teja Kummarikuntla"
-                    height="100"
-                    width="200"
-                  />
-                </a>
-              </NavbarBrand>
+              <a class="nav-brand" href="/">
+                <img
+                  src="/img/core-img/Exploiting_logo.png"
+                  alt="Teja Kummarikuntla"
+                  height="100"
+                  width="200"
+                />
+              </a>
+
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -152,7 +144,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <a
-                        href="#contact"
+                        href="#footer"
                         class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5"
                       >
                         PING<i class="zmdi zmdi-long-arrow-right"></i>

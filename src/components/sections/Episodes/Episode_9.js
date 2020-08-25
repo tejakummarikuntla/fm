@@ -1,6 +1,6 @@
 import React from "react";
 
-const ep_7 = () => {
+const ep_9 = () => {
   return (
     <div class="col-12 col-lg-8 col-xl-9">
       <div class="pr-lg-4 mb-100">
@@ -115,7 +115,7 @@ const ep_7 = () => {
         <div className="pager-area d-flex align-items-center flex-wrap mb-80">
           <div className="pager-single-post d-flex align-items-center">
             <div className="post-thumb">
-              <a href="/episodes/ep_6">
+              <a href="/episodes/ep_8">
                 <img src="../img/Podcast/Exploiting_v2_400s.png" alt="" />
               </a>
             </div>
@@ -129,13 +129,15 @@ const ep_7 = () => {
 
           <div className="pager-single-post d-flex align-items-center">
             <div className="post-thumb">
-              <a href="">
-                <img src="" alt="" />
+              <a href="/episodes/ep_9">
+                <img src="../img/Podcast/Exploiting_v2_400s.png" alt="" />
               </a>
             </div>
             <div className="post-meta">
-              <a href="" className="post-title"></a>
-              <span></span>
+              <a href="/episodes/ep_9" className="post-title">
+                Teja Kummarikuntla
+              </a>
+              <span>Next Post</span>
             </div>
           </div>
         </div>
@@ -144,4 +146,4 @@ const ep_7 = () => {
   );
 };
 
-export default ep_7;
+export default ep_9;

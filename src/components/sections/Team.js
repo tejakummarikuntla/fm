@@ -27,7 +27,10 @@ const Team = () => {
           </div>
         </div>
       </section>
-      <section class="our-speaker-area section-padding-100">
+      <br />
+      <br />
+      <br />
+      <section class="our-speaker-area ">
         <h2 style={{ textAlign: "center" }}>We're Cute!</h2>
         <h6 style={{ textAlign: "center" }}>BEHIND THE SCENES</h6>
         <br />

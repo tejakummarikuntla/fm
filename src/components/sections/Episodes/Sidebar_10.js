@@ -1,38 +1,32 @@
 import React from "react";
 
-const sidebar_7 = () => {
+const sidebar_10 = () => {
   return (
     <div class="col-12 col-md-6 col-lg-4 col-xl-3">
       <div class="confer-sidebar-area mb-100">
         <div class="single-widget-area">
           <div class="post-author-widget">
             <div class="post-author-avatar">
-              <img
-                src="../img/Podcast/episodes/ep_9/guest/Michael.jpg"
-                alt=""
-              />
+              <img src="../img/Podcast/Exploiting_v2_400s.png" alt="" />
             </div>
 
             <div class="post-author-content">
-              <h5> Michael Kennedy</h5>
+              <h5>Teja Kummarikuntla</h5>
               <span>
-                <a target="_blank" href="https://training.talkpython.fm/">
-                  Founder,Tak Python Training
-                </a>{" "}
-              </span>
-
-              <span>
-                <a target="_blank" href="https://training.talkpython.fm/">
-                  Host, Talk Python To Me Podcast
+                <a target="_blank" href="https://exploit.chat/">
+                  Host, exploit.chat
                 </a>
               </span>
             </div>
 
             <div class="author-social-info">
-              <a target="_balnk" href="https://twitter.com/mkennedy">
+              <a target="_balnk" href="https://twitter.com/tejakkuntla">
                 <i class="zmdi zmdi-twitter"></i>
               </a>
-              <a target="_balnk" href="https://www.linkedin.com/in/mkennedy/">
+              <a
+                target="_balnk"
+                href="https://www.linkedin.com/in/tejakummarikuntla/"
+              >
                 <i class="zmdi zmdi-linkedin"></i>
               </a>
             </div>
@@ -46,7 +40,7 @@ const sidebar_7 = () => {
             <li>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=lJTHy-HRYn0"
+                href="https://www.youtube.com/watch?v=-CtW_hJ-8V8"
               >
                 YouTube
               </a>
@@ -54,7 +48,7 @@ const sidebar_7 = () => {
             <li>
               <a
                 target="_blank"
-                href="https://open.spotify.com/episode/0A0n4MmmR7ybo30Pl5ZmLU"
+                href="https://open.spotify.com/episode/4p0BkFGr4tuLWZ0Q7ERxH6"
               >
                 Spotify
               </a>
@@ -62,7 +56,7 @@ const sidebar_7 = () => {
             <li>
               <a
                 target="_blank"
-                href="https://podcasts.apple.com/us/podcast/michael-kennedy-on-building-successful-podcast-in-technology/id1517209695?i=1000488344053"
+                href="https://podcasts.apple.com/us/podcast/unicast-on-killing-ants-automatic-negative-thoughts/id1517209695?i=1000488997109"
               >
                 Apple Podcast
               </a>
@@ -70,7 +64,7 @@ const sidebar_7 = () => {
             <li>
               <a
                 target="_blank"
-                href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmVmMmI1Yy9wb2RjYXN0L3Jzcw/episode/N2JkMzQ4YjQtMDc3MS00ZDdhLWJmZjUtYzNhMDJkN2RlZDZl?sa=X&ved=2ahUKEwjQsfeOxKLrAhWXgGMGHcOKAWwQkfYCegQIARAF"
+                href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmVmMmI1Yy9wb2RjYXN0L3Jzcw/episode/NjI1MTM5N2EtMTgxMS00NjQwLWJhMjAtY2E2MTFhMWE4YzA2?sa=X&ved=2ahUKEwjZuaKKsrTrAhXSpekKHSqbDf0QkfYCegQIARAF"
               >
                 Google Podcast
               </a>
@@ -104,4 +98,4 @@ const sidebar_7 = () => {
   );
 };
 
-export default sidebar_7;
+export default sidebar_10;
