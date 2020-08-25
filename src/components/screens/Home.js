@@ -19,7 +19,7 @@ const Home = () => {
         ></meta>
         <meta
           name="description"
-          content="A Pocast initiative by Teja Kummarikuntla about sharing potential and purposeful exploits by various people in different situations in life, technology, business etc."
+          content="The Exploiting Podcast is a weekly show with Conversations and Unicasts, Hosted by Teja Kummarikuntla. We resonate by diving deep into the exploiting actions by the incredible Technical, and Business leaders. With Unicasts we amplify the wisdom in the world that could help us to transform. Sounds exciting? Come exploit with us at: exploit.chat."
         ></meta>
       </Helmet>
       <Navbar />

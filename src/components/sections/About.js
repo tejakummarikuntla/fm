@@ -26,7 +26,10 @@ const about = () => {
                 deep into the exploiting actions by the incredible Technical,
                 and Business leaders. With Unicasts we amplify the wisdom in the
                 world that could help us to transform. Sounds exciting? Come
-                exploit with us at: exploit.chat.
+                exploit with us at:{""}
+                <a href="https://exploit.chat" style={{ fontStyle: "Italic" }}>
+                  <b>exploit.chat.</b>
+                </a>
               </p>
               <h6 className="wow fadeInUp" data-wow-delay="300ms">
                 {" "}
