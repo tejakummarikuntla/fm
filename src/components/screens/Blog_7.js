@@ -5,10 +5,14 @@ import BlogBread_7 from "../sections/Episodes/BreadCrumbEp_7";
 import Ep_7 from "../sections/Episodes/Episode_7";
 import Sidebar_7 from "../sections/Episodes/Sidebar_7";
 import MyComment from "../sections/DisqusCom";
+import { Helmet } from "react-helmet";
 
 const Blogarea = () => {
   return (
     <>
+      <Helmet>
+        <title>Ep7 : Josh Starmer </title>{" "}
+      </Helmet>
       <Navbar />
       <BlogBread_7 />
       <br />

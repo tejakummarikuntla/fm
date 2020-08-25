@@ -5,10 +5,14 @@ import BlogBread_8 from "../sections/Episodes/BreadCrumbEp_8";
 import Ep_8 from "../sections/Episodes/Episode_8";
 import Sidebar_8 from "../sections/Episodes/Sidebar_8";
 import MyComment from "../sections/DisqusCom";
+import { Helmet } from "react-helmet";
 
 const Blogarea = () => {
   return (
     <>
+      <Helmet>
+        <title>Ep8 : Teja Kummarikuntla </title>{" "}
+      </Helmet>
       <Navbar />
       <BlogBread_8 />
       <br />
