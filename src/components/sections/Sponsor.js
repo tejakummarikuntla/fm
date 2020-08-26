@@ -30,7 +30,10 @@ const Sponsor = () => {
                 </li>
 
                 <li>
-                  <a href="https://manning.com" target="_blank">
+                  <a
+                    href="https://www.manning.com/?utm_source=affiliates&utm_medium=affiliates&a_aid=exploitchat"
+                    target="_blank"
+                  >
                     {" "}
                     <img
                       style={{ borderRadius: "10px" }}

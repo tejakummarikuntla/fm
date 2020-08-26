@@ -4,6 +4,7 @@ import Footer from "../sections/Footer";
 import Podcast from "../sections/Podcast";
 import Navbar from "../sections/Navbar";
 import Testimonal from "../sections/Testimonals";
+import Rustconf from "../sections/rust";
 import CarouselPage from "../sections/ListnersTestimonials";
 import Sponsors from "../sections/Sponsor";
 import { Helmet } from "react-helmet";
@@ -25,7 +26,7 @@ const Home = () => {
       <Navbar />
       <About />
       <Podcast />
-
+      <Rustconf />
       <section
         class="testimonial text-center"
         style={{ backgroundColor: "#151853", textAlign: "center" }}
