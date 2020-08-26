@@ -16,6 +16,7 @@ import Ep_7 from "./components/screens/Blog_7";
 import Ep_8 from "./components/screens/Blog_8";
 import Ep_9 from "./components/screens/Blog_9";
 import Ep_10 from "./components/screens/Blog_10";
+import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import Team from "./components/screens/Team";
 import SponsorUs from "./components/screens/Sponsor_us";
@@ -68,6 +69,9 @@ const Routing = () => {
       <Route path="/episodes/ep_10">
         <Ep_10 />
       </Route>
+      <Route path="/sponsors/manning">
+        <Rust />
+      </Route>
       <Route path="/signin">
         <Signin />
       </Route>
@@ -119,6 +123,9 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep10">
         <Redirect to="/episodes/ep_10" />
+      </Route>
+      <Route exact path="/rust">
+        <Redirect to="/sponsors/manning" />
       </Route>
       <Route path="*">
         <Error />

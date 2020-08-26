@@ -9,7 +9,7 @@ const Sponsor = () => {
         data-wow-delay="300ms"
       >
         <p>Brands Behind Us</p>
-        <h4>Our Great Sponsers</h4>
+        <h4>Our Great Sponsors</h4>
       </div>
       <div class="container">
         <div class="row">
