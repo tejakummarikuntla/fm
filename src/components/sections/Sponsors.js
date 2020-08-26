@@ -9,13 +9,23 @@ const Sponsor = () => {
         data-wow-delay="300ms"
       >
         <p>Brands Behind Us</p>
-        <h4>Our Great Sponsers</h4>
+        <h4>Our Great Sponsors</h4>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="single-partner">
               <ul>
+                <li>
+                  <a href="https://talkpython.fm/exploiting" target="_blank">
+                    {" "}
+                    <img
+                      style={{ borderRadius: "10px" }}
+                      src="../img/core-img/TalkPython.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
                 <li>
                   <a href="https://manning.com" target="_blank">
                     {" "}
@@ -24,16 +34,6 @@ const Sponsor = () => {
                         borderRadius: "10px",
                       }}
                       src="../img/core-img/manning_logo.png"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://talkpython.fm/exploiting" target="_blank">
-                    {" "}
-                    <img
-                      style={{ borderRadius: "10px" }}
-                      src="../img/core-img/TalkPython.png"
                       alt=""
                     />
                   </a>

@@ -15,10 +15,13 @@ import Ep_6 from "./components/screens/Blog_6";
 import Ep_7 from "./components/screens/Blog_7";
 import Ep_8 from "./components/screens/Blog_8";
 import Ep_9 from "./components/screens/Blog_9";
+import Ep_10 from "./components/screens/Blog_10";
+import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import Check from "./components/sections/bcheck";
 import Team from "./components/screens/Team";
 import Sponsor from "./components/screens/Sponsor";
+import Sponsors from "./components/screens/Sponsors";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
 import { reducer, initialState } from "./reducer/userReducer";
@@ -64,6 +67,12 @@ const Routing = () => {
       <Route path="/episodes/ep_9">
         <Ep_9 />
       </Route>
+      <Route path="/episodes/ep_10">
+        <Ep_10 />
+      </Route>
+      <Route path="/sponsors/manning">
+        <Rust />
+      </Route>
       <Route path="/signin">
         <Signin />
       </Route>
@@ -75,6 +84,9 @@ const Routing = () => {
       </Route>
       <Route path="/sponsor">
         <Sponsor />
+      </Route>
+      <Route path="/sponsors">
+        <Sponsors />
       </Route>
       <Route path="/backend">
         <Check />
@@ -112,6 +124,12 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep9">
         <Redirect to="/episodes/ep_9" />
+      </Route>
+      <Route exact path="/ep10">
+        <Redirect to="/episodes/ep_10" />
+      </Route>
+      <Route exact path="/rust">
+        <Redirect to="/sponsors/manning" />
       </Route>
       <Route path="*">
         <Error />
