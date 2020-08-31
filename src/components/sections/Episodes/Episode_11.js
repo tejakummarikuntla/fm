@@ -66,6 +66,32 @@ const ep_11 = () => {
               three words.
             </h5>
           </blockquote>
+          <h4>Give Away</h4>
+          <div>
+            <p>
+              {" "}
+              Get a chance to grab Miguel’s Book{" "}
+              <a href="https://bit.ly/3hHbNjz">
+                <b>“Grokking Deep Reinforcement Learning”</b>
+              </a>{" "}
+              from Manning Publications by joining in the Giveaway. Join the
+              giveaway at{" "}
+              <a href="https://linktr.ee/tejakummarikuntla">
+                <i>linktr.ee/tejakummarikuntla</i>
+              </a>{" "}
+            </p>
+          </div>
+        </div>
+        <br />
+        <div className="row">
+          <div className="col-6">
+            <img
+              className="mb-30"
+              src="/img/Podcast/episodes/ep_11/giveaway/giveaway_banner.jpg"
+              alt=""
+              style={{ borderRadius: "10px" }}
+            />
+          </div>
         </div>
 
         <p>
