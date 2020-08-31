@@ -11,7 +11,8 @@ const Blogarea = () => {
   return (
     <>
       <Helmet>
-        <title>Ep11 : Michael Kennedy </title>{" "}
+        <title>Miguel Morales: On How Reinforcement Learning Aligned With Human
+            Learnings </title>{" "}
       </Helmet>
       <Navbar />
       <BlogBread_11 />
