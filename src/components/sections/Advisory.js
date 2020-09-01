@@ -30,7 +30,7 @@ const Link = tw.a`inline-block mt-4 text-sm text-primary-500 font-bold cursor-po
 export default () => {
   const cards = [
     {
-      imageSrc: "../img/adv_img/venkatM.jpeg",
+      imageSrc: "../img/adv_img/venkat.jpg",
       title: "Venkatesh Mainani",
       designation: "Founder | CyberVie",
       description:
