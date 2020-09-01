@@ -1,5 +1,6 @@
 import React from "react";
 import Team from "./Team";
+import Advisory from "./Advisory.js";
 
 const TeamTest = () => {
   return (
@@ -56,7 +57,7 @@ const TeamTest = () => {
                       aria-controls="step-one"
                       aria-expanded="true"
                     >
-                      Team
+                      Technical
                     </a>
                   </li>
                   <li class="nav-item">
@@ -104,7 +105,7 @@ const TeamTest = () => {
                   <div class="single-tab-content">
                     <div class="row">
                       <div class="col-12">
-                        <Team />
+                        <Advisory />
                       </div>
                     </div>
                   </div>

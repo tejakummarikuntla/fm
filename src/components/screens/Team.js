@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../sections/Footer";
 import Navbar from "../sections/Navbar";
-import Team from "../sections/Team";
+import Team from "../sections/TeamTest";
 import { Helmet } from "react-helmet";
 
 const crew = () => {
