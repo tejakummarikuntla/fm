@@ -19,6 +19,7 @@ import Ep_10 from "./components/screens/Blog_10";
 import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import Check from "./components/sections/bcheck";
+import AMA from "./components/sections/AMA";
 import Team from "./components/screens/Team";
 import Sponsor from "./components/screens/Sponsor";
 import Sponsors from "./components/screens/Sponsors";
@@ -90,6 +91,9 @@ const Routing = () => {
       </Route>
       <Route path="/backend">
         <Check />
+      </Route>
+      <Route path="/AskBob">
+        <AMA />
       </Route>
       <Route
         path="/newsletter"
