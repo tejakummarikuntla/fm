@@ -44,7 +44,10 @@ const sidebar_7 = () => {
 
           <ul class="tag-cloud">
             <li>
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=lJTHy-HRYn0"
+              >
                 YouTube
               </a>
             </li>
@@ -57,18 +60,32 @@ const sidebar_7 = () => {
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://podcasts.apple.com/us/podcast/michael-kennedy-on-building-successful-podcast-in-technology/id1517209695?i=1000488344053"
+              >
                 Apple Podcast
               </a>
             </li>
             <li>
-              <a target="_blank" href="">
+              <a
+                target="_blank"
+                href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmVmMmI1Yy9wb2RjYXN0L3Jzcw/episode/N2JkMzQ4YjQtMDc3MS00ZDdhLWJmZjUtYzNhMDJkN2RlZDZl?sa=X&ved=2ahUKEwjQsfeOxKLrAhWXgGMGHcOKAWwQkfYCegQIARAF"
+              >
                 Google Podcast
               </a>
             </li>
           </ul>
         </div>
-
+        <div class="single-widget-area">
+          <h5 class="widget-title mb-30">Sponsors:</h5>
+          <a href="http://exploit.chat/sponsors/manning" target="_blank">
+            <img src="../img/core-img/manning_logo.png" alt="img" />{" "}
+          </a>
+          <a href="https://talkpython.fm/exploiting" target="_blank">
+            <img src="../img/core-img/TalkPython.png" alt="img" />{" "}
+          </a>
+        </div>
         <div class="single-widget-area">
           <h5 class="widget-title mb-30">Categories</h5>
 

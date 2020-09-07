@@ -21,14 +21,15 @@ const about = () => {
                 Exploiting with <br /> Teja Kummarikuntla
               </h3>
               <p className="wow fadeInUp" data-wow-delay="300ms">
-                Spending time towards technologies fascinates me to learn and
-                deconstruct the things deeper. Of course, technology shifts so
-                swiftly. But, my curiosity in Programming and Math stays
-                connected with me. Being part of multiple open communities
-                helped me personally towards leading without a title. This
-                Podcast is all about sharing potential and purposeful exploits
-                by various people in different situations in life, technology,
-                business etc.
+                The Exploiting Podcast is a weekly show with Conversations and
+                Unicasts, Hosted by Teja Kummarikuntla. We resonate by diving
+                deep into the exploiting actions by the incredible Technical,
+                and Business leaders. With Unicasts we amplify the wisdom in the
+                world that could help us to transform. Sounds exciting? Come
+                exploit with us at:{""}
+                <a href="https://exploit.chat" style={{ fontStyle: "Italic" }}>
+                  <b>exploit.chat.</b>
+                </a>
               </p>
               <h6 className="wow fadeInUp" data-wow-delay="300ms">
                 {" "}

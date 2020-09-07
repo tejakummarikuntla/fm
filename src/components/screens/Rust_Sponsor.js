@@ -23,7 +23,7 @@ const Rust = () => {
                       <a href="/">Home</a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="/sponsors">Sponsors</a>
+                      <a href="/episodes/all">Sponsors</a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Manning

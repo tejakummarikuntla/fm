@@ -16,12 +16,15 @@ import Ep_7 from "./components/screens/Blog_7";
 import Ep_8 from "./components/screens/Blog_8";
 import Ep_9 from "./components/screens/Blog_9";
 import Ep_10 from "./components/screens/Blog_10";
+import Ep_11 from "./components/screens/Blog_11";
+import Ep_12 from "./components/screens/Blog_12";
 import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import Check from "./components/sections/bcheck";
 import AMA from "./components/sections/AMA";
+import AMA1 from "./components/sections/AMA1";
 import Team from "./components/screens/Team";
-import Sponsor from "./components/screens/Sponsor";
+import SponsorUs from "./components/screens/Sponsor_us";
 import Sponsors from "./components/screens/Sponsors";
 import Signin from "./components/screens/Signin";
 import Contact from "./components/sections/Contact";
@@ -71,6 +74,12 @@ const Routing = () => {
       <Route path="/episodes/ep_10">
         <Ep_10 />
       </Route>
+      <Route path="/episodes/ep_11">
+        <Ep_11 />
+      </Route>
+      <Route path="/episodes/ep_12">
+        <Ep_12 />
+      </Route>
       <Route path="/sponsors/manning">
         <Rust />
       </Route>
@@ -84,16 +93,19 @@ const Routing = () => {
         <Team />
       </Route>
       <Route path="/sponsor">
-        <Sponsor />
+        <SponsorUs />
       </Route>
       <Route path="/sponsors">
         <Sponsors />
       </Route>
-      <Route path="/backend">
-        <Check />
-      </Route>
       <Route path="/AskBob">
         <AMA />
+      </Route>
+      <Route path="/AskMauro">
+        <AMA1 />
+      </Route>
+      <Route path="/backend">
+        <Check />
       </Route>
       <Route
         path="/newsletter"
@@ -132,13 +144,19 @@ const Routing = () => {
       <Route exact path="/ep10">
         <Redirect to="/episodes/ep_10" />
       </Route>
+      <Route exact path="/ep11">
+        <Redirect to="/episodes/ep_11" />
+      </Route>
+      <Route exact path="/ep12">
+        <Redirect to="/episodes/ep_12" />
+      </Route>
       <Route exact path="/rust">
         <Redirect to="/sponsors/manning" />
       </Route>
       <Route path="*">
         <Error />
       </Route>
-      <Route path="*/">
+      <Route path="/*">
         <Error />
       </Route>
     </Switch>

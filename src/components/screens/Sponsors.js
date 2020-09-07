@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../sections/Footer";
 import Navbar from "../sections/Navbar";
-import Sponsors from "../sections/Sponsors";
+import Sponsors from "../sections/Sponsor";
 
 const Sponsor = () => {
   return (

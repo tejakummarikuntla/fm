@@ -4,9 +4,9 @@ import Footer from "../sections/Footer";
 import Podcast from "../sections/Podcast";
 import Navbar from "../sections/Navbar";
 import Testimonal from "../sections/Testimonals";
-import CarouselPage from "../sections/ListnersTestimonials";
-import Sponsors from "../sections/Sponsors";
 import Rustconf from "../sections/rust";
+import CarouselPage from "../sections/ListnersTestimonials";
+import Sponsors from "../sections/Sponsor";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
       >
         <Testimonal />
         <CarouselPage />
-        <div className="container">
+        <div className="container" style={{ backgroundColor: "#151853" }}>
           <Sponsors />
         </div>
       </section>

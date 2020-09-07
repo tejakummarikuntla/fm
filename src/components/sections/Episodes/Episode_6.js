@@ -108,13 +108,18 @@ const ep_6 = () => {
 
           <div className="pager-single-post d-flex align-items-center">
             <div className="post-thumb">
-              <a href="#">
-                <img src="" alt="" />
+              <a href="/ep7">
+                <img
+                  src="../img/Podcast/episodes/ep_7/guest/Joshua.jpg"
+                  alt=""
+                />
               </a>
             </div>
             <div className="post-meta">
-              <a href="#" className="post-title"></a>
-              <span></span>
+              <a href="/ep7" className="post-title">
+                Josh Starmer
+              </a>
+              <span>Next Post</span>
             </div>
           </div>
         </div>

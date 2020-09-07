@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../sections/Footer";
 import Navbar from "../sections/Navbar";
+import Footer from "../sections/Footer";
 import BlogBread_6 from "../sections/Episodes/BreadCrumbEp_6";
 import Ep_6 from "../sections/Episodes/Episode_6";
 import Sidebar_6 from "../sections/Episodes/Sidebar_6";

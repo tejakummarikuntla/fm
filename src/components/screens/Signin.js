@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { API } from "../../config";
 import { UserContext } from "../../App";
+import { API } from "../../config";
 import M from "materialize-css";
 
 const Signin = () => {

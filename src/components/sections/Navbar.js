@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Headroom from "headroom.js";
 import {
   Button,
@@ -81,9 +80,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      id="tooltip333589074"
                       href="/"
                       target="_self"
+                      id="tooltip333589074"
                       style={{ color: "white" }}
                     >
                       HOME
@@ -145,7 +144,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <a
-                        href="#contact"
+                        href="#footer"
                         class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5"
                       >
                         PING<i class="zmdi zmdi-long-arrow-right"></i>
