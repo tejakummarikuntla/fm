@@ -83,7 +83,7 @@ const ep_10 = () => {
         <div className="pager-area d-flex align-items-center flex-wrap mb-80">
           <div className="pager-single-post d-flex align-items-center">
             <div className="post-thumb">
-              <a href="/ep10">
+              <a href="/ep11">
                 <img
                   src="../img/Podcast/episodes/ep_11/guest/Morales_Miguel.jpg"
                   alt=""
@@ -91,7 +91,7 @@ const ep_10 = () => {
               </a>
             </div>
             <div className="post-meta">
-              <a href="/ep10" className="post-title">
+              <a href="/ep11" className="post-title">
                 Miguel Morales
               </a>
               <span>Previous Post</span>

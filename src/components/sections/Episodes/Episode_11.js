@@ -134,7 +134,9 @@ const ep_11 = () => {
               </a>
             </div>
             <div className="post-meta">
-              <a href="/episodes/ep_12" className="post-title"></a>
+              <a href="/episodes/ep_12" className="post-title">
+                Teja Kummarikuntla
+              </a>
               <span>Next Post</span>
             </div>
           </div>
