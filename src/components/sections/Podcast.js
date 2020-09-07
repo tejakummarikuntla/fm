@@ -19,6 +19,54 @@ const Podcast = () => {
                 <h4>Episodes</h4>
               </div>
             </div>
+            <div class="single-blog-area wow fadeInUp">
+              <div class="card" data-wow-delay="300ms">
+                <div class="card-body" data-wow-delay="300ms">
+                  <div id="Container">
+                    <iframe
+                      src="https://open.spotify.com/embed-podcast/episode/68j3t4eHwWY9GBaXPzoWR0"
+                      width="100%"
+                      height="232"
+                      frameborder="0"
+                      allowtransparency="true"
+                      allow="encrypted-media"
+                    ></iframe>
+                  </div>
+                  <div class="single-blog-text text-center">
+                    <a
+                      class="blog-title"
+                      href="/episodes/ep_12"
+                      target="_blank"
+                    >
+                      Unicast: On Chasing Grit With Transformation
+                    </a>
+                    <div class="post-meta">
+                      <a class="post-date">
+                        <i class="zmdi zmdi-alarm-check"></i> Aug 24, 2020
+                      </a>
+                      <a
+                        class="post-author"
+                        href="https://www.linkedin.com/in/tejakummarikuntla/"
+                        target="_blank"
+                      >
+                        <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
+                      </a>
+                    </div>
+                    <p>
+                      Angela Duckworth defines, Grit is a passion and sustained
+                      persistence applied towards long-term achievement, the
+                      secret to that outstanding achievement is not talent but
+                      grit, it’s a special blend of passion and persistence
+                    </p>
+                  </div>
+                </div>
+                <div class="blog-btn">
+                  <a href="/episodes/ep_12" target="_blank">
+                    <i class="zmdi zmdi-long-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <div class="single-blog-area wow fadeInUp">
               <div class="card" data-wow-delay="300ms">
@@ -66,54 +114,6 @@ const Podcast = () => {
                 </div>
                 <div class="blog-btn">
                   <a href="/episodes/ep_11" target="_blank">
-                    <i class="zmdi zmdi-long-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="single-blog-area wow fadeInUp">
-              <div class="card" data-wow-delay="300ms">
-                <div class="card-body" data-wow-delay="300ms">
-                  <div id="Container">
-                    <iframe
-                      src="https://open.spotify.com/embed-podcast/episode/4p0BkFGr4tuLWZ0Q7ERxH6"
-                      width="100%"
-                      height="232"
-                      frameborder="0"
-                      allowtransparency="true"
-                      allow="encrypted-media"
-                    ></iframe>
-                  </div>
-                  <div class="single-blog-text text-center">
-                    <a
-                      class="blog-title"
-                      href="/episodes/ep_10"
-                      target="_blank"
-                    >
-                      Unicast: On Killing ANTs, Automatic Negative Thoughts
-                    </a>
-                    <div class="post-meta">
-                      <a class="post-date">
-                        <i class="zmdi zmdi-alarm-check"></i> Aug 24, 2020
-                      </a>
-                      <a
-                        class="post-author"
-                        href="https://www.linkedin.com/in/tejakummarikuntla/"
-                        target="_blank"
-                      >
-                        <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
-                      </a>
-                    </div>
-                    <p>
-                      In this Unicast, I’ve shared a practical todo that could
-                      transform and help you with Killing Automatic Negative
-                      Thoughts using Spot, Stop, and Swap.
-                    </p>
-                  </div>
-                </div>
-                <div class="blog-btn">
-                  <a href="/episodes/ep_10" target="_blank">
                     <i class="zmdi zmdi-long-arrow-right"></i>
                   </a>
                 </div>

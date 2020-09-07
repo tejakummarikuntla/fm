@@ -121,7 +121,7 @@ const ep_11 = () => {
               </a>
             </div>
             <div className="post-meta">
-              <a href="/episodes/ep_8" className="post-title">
+              <a href="/episodes/ep_10" className="post-title">
                 Teja Kummarikuntla
               </a>
               <span>Previous Post</span>
@@ -129,13 +129,13 @@ const ep_11 = () => {
           </div>
           <div className="pager-single-post d-flex align-items-center">
             <div className="post-thumb">
-              <a href="">
-                <img src="" alt="" />
+              <a href="/episodes/ep_12">
+                <img src="../img/Podcast/Exploiting_v2_400s.png" alt="" />
               </a>
             </div>
             <div className="post-meta">
-              <a href="" className="post-title"></a>
-              <span></span>
+              <a href="/episodes/ep_12" className="post-title"></a>
+              <span>Next Post</span>
             </div>
           </div>
         </div>

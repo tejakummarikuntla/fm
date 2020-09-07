@@ -10,6 +10,51 @@ const poditem = () => {
               <div class="card-body" data-wow-delay="300ms">
                 <div id="Container">
                   <iframe
+                    src="https://open.spotify.com/embed-podcast/episode/68j3t4eHwWY9GBaXPzoWR0"
+                    width="100%"
+                    height="232"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+                </div>
+                <div class="single-blog-text text-center">
+                  <a class="blog-title" href="/episodes/ep_12" target="_blank">
+                    Unicast: On Chasing Grit With Transformation
+                  </a>
+                  <div class="post-meta">
+                    <a class="post-date">
+                      <i class="zmdi zmdi-alarm-check"></i> Aug 24, 2020
+                    </a>
+                    <a
+                      class="post-author"
+                      href="https://www.linkedin.com/in/tejakummarikuntla/"
+                      target="_blank"
+                    >
+                      <i class="zmdi zmdi-account"></i> Teja Kummarikuntla
+                    </a>
+                  </div>
+                  <p>
+                    Angela Duckworth defines, Grit is a passion and sustained
+                    persistence applied towards long-term achievement, the
+                    secret to that outstanding achievement is not talent but
+                    grit, it’s a special blend of passion and persistence
+                  </p>
+                </div>
+              </div>
+              <div class="blog-btn">
+                <a href="/episodes/ep_12" target="_blank">
+                  <i class="zmdi zmdi-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="single-blog-area wow fadeInUp">
+            <div class="card" data-wow-delay="300ms">
+              <div class="card-body" data-wow-delay="300ms">
+                <div id="Container">
+                  <iframe
                     src="https://open.spotify.com/embed-podcast/episode/5e13nDd91PTOycmR1LCACd                      "
                     width="100%"
                     height="232"
