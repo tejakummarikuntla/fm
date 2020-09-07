@@ -81,6 +81,13 @@ export default ({
         "I love Teja's Idea of The Exploiting Podcast about taking ownership of life, career, and what we are actually passionate about and taking them to the next level.His questions to me are deep with full of fun, we had a lovely and exciting conversation. That was fantastic.",
     },
     {
+      customerName: "Miguel Morales",
+      customerProfile: "Staff Software Engineer, Lockheed Martin",
+      imageSrc: "../img/Podcast/episodes/ep_11/guest/Morales_Miguel.jpg",
+      quote:
+        "Teja's questions were really interesting, he does work a lot before asking something, those questions are well connected and deeply engaging, I enjoyed our conversation with a lot of fun, didn't realize we spoke over hours and totally enjoyed our chat. I appreciate his work towards podcasting, Btw, I love the name 'Exploiting'.",
+    },
+    {
       customerName: "Radmila ercegovac",
       customerProfile: "Marketing Research, Manning",
       imageSrc: "../img/core-img/radmila.jpg",

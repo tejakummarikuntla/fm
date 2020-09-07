@@ -21,6 +21,7 @@ import Ep_12 from "./components/screens/Blog_12";
 import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import AMA from "./components/sections/AMA";
+import AMA1 from "./components/sections/AMA1";
 import Team from "./components/screens/Team";
 import SponsorUs from "./components/screens/Sponsor_us";
 import Sponsors from "./components/screens/Sponsors";
@@ -98,6 +99,9 @@ const Routing = () => {
       </Route>
       <Route path="/AskBob">
         <AMA />
+      </Route>
+      <Route path="/AskMauro">
+        <AMA1 />
       </Route>
       <Route
         path="/newsletter"
