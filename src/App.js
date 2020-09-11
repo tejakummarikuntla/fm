@@ -22,6 +22,9 @@ import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import AMA from "./components/sections/AMA";
 import AMA1 from "./components/sections/AMA1";
+import AMA2 from "./components/sections/AMA2";
+import AMA3 from "./components/sections/AMA3";
+import AMA4 from "./components/sections/AMA4";
 import Team from "./components/screens/Team";
 import SponsorUs from "./components/screens/Sponsor_us";
 import Sponsors from "./components/screens/Sponsors";
@@ -103,10 +106,26 @@ const Routing = () => {
       <Route path="/AskMauro">
         <AMA1 />
       </Route>
+      <Route path="/AskMat">
+        <AMA2 />
+      </Route>
+      <Route path="/AskNidhi">
+        <AMA3 />
+      </Route>
+      <Route path="/AskPrateek">
+        <AMA4 />
+      </Route>
       <Route
         path="/newsletter"
         component={() => {
           window.location = "http://eepurl.com/g_FSzP";
+          return null;
+        }}
+      />
+      <Route
+        path="/crio"
+        component={() => {
+          window.location = "https://crio.do/redeem/?a=TEJA";
           return null;
         }}
       />
