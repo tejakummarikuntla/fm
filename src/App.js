@@ -18,6 +18,7 @@ import Ep_9 from "./components/screens/Blog_9";
 import Ep_10 from "./components/screens/Blog_10";
 import Ep_11 from "./components/screens/Blog_11";
 import Ep_12 from "./components/screens/Blog_12";
+import Ep_13 from "./components/screens/Blog_13";
 import Rust from "./components/screens/Rust_Sponsor";
 import Error from "./components/sections/Error";
 import Check from "./components/sections/bcheck";
@@ -82,6 +83,9 @@ const Routing = () => {
       </Route>
       <Route path="/episodes/ep_12">
         <Ep_12 />
+      </Route>
+      <Route path="/episodes/ep_13">
+        <Ep_13 />
       </Route>
       <Route path="/sponsors/manning">
         <Rust />
@@ -168,6 +172,9 @@ const Routing = () => {
       </Route>
       <Route exact path="/ep12">
         <Redirect to="/episodes/ep_12" />
+      </Route>
+      <Route exact path="/ep13">
+        <Redirect to="/episodes/ep_13" />
       </Route>
       <Route exact path="/rust">
         <Redirect to="/sponsors/manning" />
