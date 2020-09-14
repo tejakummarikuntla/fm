@@ -55,14 +55,12 @@ const Podcast = () => {
                       </a>
                     </div>
                     <p>
-                      Having over a decade of experience in Product Management,
-                      Business Analysis, and Marketing, In 2018, Rathina
-                      switched his career from working for corporate to Build
-                      Crio, Believing “learning by doing” into the core, Crio
-                      provides specialized learning environments for young
-                      developers and Engineering students or any computer
-                      science aspirants wishing to learn production level
-                      development or product engineering
+                      Learning can be real and transformative, only we do also
+                      apply in real-time, “Learning by Doing” into the core,
+                      Rathinamurthy, Co-Founder of Crio.Do, revealed his
+                      experience in the initial days of Crio, and how
+                      engineering graduates and software aspirants can make an
+                      impact on the way they learn.
                     </p>
                   </div>
                 </div>

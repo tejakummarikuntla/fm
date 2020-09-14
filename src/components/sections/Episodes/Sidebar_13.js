@@ -66,11 +66,8 @@ const sidebar_13 = () => {
         </div>
         <div class="single-widget-area">
           <h5 class="widget-title mb-30">Sponsors:</h5>
-          <a href="http://exploit.chat/sponsors/manning" target="_blank">
-            <img src="../img/core-img/manning_logo.png" alt="img" />{" "}
-          </a>
-          <a href="https://talkpython.fm/exploiting" target="_blank">
-            <img src="../img/core-img/TalkPython.png" alt="img" />{" "}
+          <a href="http://crio.do/" target="_blank">
+            <img src="../img/core-img/crio.png" alt="img" />{" "}
           </a>
         </div>
         <div class="single-widget-area">

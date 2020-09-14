@@ -53,7 +53,7 @@ const ep_13 = () => {
             behind Crio has built an incredible interface between academics and
             industry, that requires indeed in this generation
           </p>
-          <p>Thank you so much for joining us Rathinamurthy.</p>
+
           <h4>Episode Highlights</h4>
 
           <blockquote class="confer-blockquote">
@@ -71,18 +71,14 @@ const ep_13 = () => {
 
         <p>
           {" "}
-          <i>
-            <a target="_blank" href="https://www.manning.com/">
-              Manning publications
-            </a>
-          </i>{" "}
-          is offering a complete 40% off on applying{" "}
-          <b>
-            <i>“podexploit20”</i>
-          </b>{" "}
-          coupon code during the purchase of any Manning Books. Know more about
-          giveaways at{" "}
-          <a href="https://www.instagram.com/exploit.chat">@exploit.chat</a>
+          <i></i> Find free Micro-Experiences at{" "}
+          <a target="_blank" href="https://crio.do/">
+            Crio.Do
+          </a>
+          <br />
+          Grab free parks from Crio.Do: <a href="/crio">
+            exploit.chat/crio
+          </a>{" "}
         </p>
 
         <div class="post-tags-social-area mt-30 pb-5 d-flex flex-wrap align-items-center"></div>
