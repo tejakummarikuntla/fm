@@ -27,6 +27,7 @@ import AMA1 from "./components/sections/AMA1";
 import AMA2 from "./components/sections/AMA2";
 import AMA3 from "./components/sections/AMA3";
 import AMA4 from "./components/sections/AMA4";
+import AMA5 from "./components/sections/AMA5";
 import Team from "./components/screens/Team";
 import SponsorUs from "./components/screens/Sponsor_us";
 import Sponsors from "./components/screens/Sponsors";
@@ -119,6 +120,9 @@ const Routing = () => {
       </Route>
       <Route path="/AskPrateek">
         <AMA4 />
+      </Route>
+      <Route path="/AskChan">
+        <AMA5 />
       </Route>
       <Route path="/backend">
         <Check />
