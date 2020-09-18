@@ -37,6 +37,14 @@ export default () => {
         "Venkatesh mainani been in information security for more than a decade to work in various sectors like IT software, Hospitality, and Financial sector. This Experienced career of Venkatesh mainani to implement the Framework for Securing the IT Infrastructure from Cyber Attacks.Which leads to start Cybervie Cyber Security Awareness or Training for Employees with in-depth knowledge on Web Applications and Penetration Testing.",
       url: "",
     },
+    {
+      imageSrc: "../img/adv_img/NikhilKumaran.jpeg",
+      title: "Nikhil Kumaran",
+      designation: "Frontend Engineer | Qube Cinema",
+      description:
+        "I'm a Frontend Engineer, currently focussing on ReactJS. I'm a constant learner and I also occasionally share my knowledge by writing blog posts, giving tech talks, and contributing to open-source projects.",
+      url: "",
+    },
   ];
 
   return (

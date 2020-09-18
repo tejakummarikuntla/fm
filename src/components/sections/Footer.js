@@ -167,17 +167,33 @@ export default class Subscribe extends Component {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-6">
-                  <SubscribeNewsletterContainer>
-                    <Form method="get" action="#">
-                      <div
-                        className="single-footer-widget mb-60 wow fadeInUp"
-                        data-wow-delay="300ms"
-                      >
-                        <h5 className="widget-title" style={{ color: "white" }}>
-                          {" "}
-                          Subscribe Here !
-                        </h5>
+                {
+                  <div class="col-12 col-sm-6 col-lg-6">
+                    <SubscribeNewsletterContainer>
+                      <Form method="get" action="#">
+                        <div
+                          className="single-footer-widget mb-60 wow fadeInUp"
+                          data-wow-delay="300ms"
+                        >
+                          <h5
+                            className="widget-title"
+                            style={{ color: "white" }}
+                          >
+                            {" "}
+                            Newsletter
+                          </h5>
+                          <iframe
+                            src="https://exploit.substack.com/embed"
+                            width="100%"
+                            style={{
+                              border: "1px solid #EEE",
+                              background: "white",
+                              borderRadius: "5px",
+                            }}
+                            frameborder="0"
+                            scrolling="no"
+                          ></iframe>
+                          {/*
                         <Input
                           value={this.state.name}
                           type="email"
@@ -205,11 +221,12 @@ export default class Subscribe extends Component {
                           type="submit"
                         >
                           Subscribe
-                        </Button>
-                      </div>
-                    </Form>
-                  </SubscribeNewsletterContainer>
-                </div>
+                        </Button> */}
+                        </div>
+                      </Form>
+                    </SubscribeNewsletterContainer>
+                  </div>
+                }
               </div>
             </div>
           </div>
